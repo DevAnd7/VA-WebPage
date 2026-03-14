@@ -1,10 +1,10 @@
 function Navbar() {
     return (
-        <nav className="navbar bg-body-tertiary">
-            <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+        <nav className="navbar navbar-dark">
+            <div className="container d-flex">
+                <a className="navbar-brand d-flex align-items-center gap-2" href="#">
                     <i className="bi bi-palette"></i>
-                        Virgilio Arrieta
+                    <span className="fs-1">Virgilio Arrieta</span>
                 </a>
             </div>
         </nav>
