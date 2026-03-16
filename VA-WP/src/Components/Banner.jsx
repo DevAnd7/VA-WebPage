@@ -3,7 +3,7 @@ import "./Banner.css"; //importacion de los estilos del banner
 function Banner() {
     return (
         <div className="card bg-dark text-white mb-2">
-            <img src="VA taller.webp" className="card-img-banner" alt="" />
+            <img src="/VA taller.webp" className="card-img-banner" alt="" />
             <div className="card-img-overlay d-flex justify-content-center flex-column text-start">
                 <h5 className="card-title fs-2">Aquí la creatividad, no tiene límites.</h5>
                 <p className="card-text fs-3">
