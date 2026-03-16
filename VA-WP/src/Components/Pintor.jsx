@@ -6,7 +6,7 @@ function Pintor() {
             <div className="row g-3">
 
                 <div className="col-lg-4 col-md-6">
-                    <div className="card h-100">
+                    <div className="card h-100 bg-dark text-white">
                         <img src="/VA taller.webp" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Obra 1</h5>
@@ -19,7 +19,7 @@ function Pintor() {
                 </div>
 
                 <div className="col-lg-4 col-md-6">
-                    <div className="card h-100">
+                    <div className="card h-100 bg-dark text-white">
                         <img src="/VA taller.webp" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Obra 2</h5>
@@ -32,7 +32,7 @@ function Pintor() {
                 </div>
 
                 <div className="col-lg-4 col-md-6">
-                    <div className="card h-100">
+                    <div className="card h-100 bg-dark text-white">
                         <img src="/VA taller.webp" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Obra 3</h5>
