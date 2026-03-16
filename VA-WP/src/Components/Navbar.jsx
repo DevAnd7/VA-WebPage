@@ -1,6 +1,6 @@
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-2">
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark mb-2">
             <div className="container">
                 <a className="navbar-brand d-flex align-items-center gap-2" href="#">
                     <i className="bi bi-palette"></i>
