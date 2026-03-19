@@ -1,33 +1,37 @@
+import "./Footer.css"; //importacion de los estilos del footer
+
+import Botones from "../Componentes/Botones"
+
 function Footer() {
   return (
-    <footer className="d-flex justify-content-between align-items-center bg-dark text-white px-5 py-2 mt-5">
+    <footer className="footer d-flex justify-content-between align-items-center px-5 py-2 mt-5">
 
       <div className="d-flex align-items-center gap-3">
         <h3 className="mb-0">Virgilio Arrieta</h3>
 
         <ul className="d-flex gap-3 list-unstyled fs-3 mb-0">
           <li>
-            <a href="https://www.instagram.com/virgilioarrieta/" target="_blank" rel="noopener noreferrer">
-            <button className="btn btn-outline-light p-1">
-              <i className="bi bi-instagram"> Instagram</i>
-            </button>
-            </a>
+            <Botones
+              href="https://www.instagram.com/virgilioarrieta/"
+              iconClass="bi bi-instagram"
+              label="Instagram"
+            />
           </li>
 
           <li>
-            <a href="https://www.tiktok.com/@virgilio.arrieta" target="_blank" rel="noopener noreferrer">
-            <button className="btn btn-outline-light p-1">
-              <i className="bi bi-tiktok"> TikTok</i>
-            </button>
-            </a>
+            <Botones
+              href="https://www.tiktok.com/@virgilio.arrieta"
+              iconClass="bi bi-tiktok"
+              label="TikTok"
+            />
           </li>
 
           <li>
-            <a href="https://open.spotify.com/intl-es/artist/0PCpDbUZp068RFBztSkiPn" target="_blank" rel="noopener noreferrer">
-            <button className="btn btn-outline-light p-1">
-              <i class="bi bi-spotify"> Spotify</i>
-            </button>
-            </a>
+            <Botones
+              href="https://open.spotify.com/intl-es/artist/0PCpDbUZp068RFBztSkiPn"
+              iconClass="bi bi-spotify"
+              label="Spotify"
+            />
           </li>
         </ul>
       </div>

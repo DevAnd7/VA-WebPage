@@ -19,37 +19,35 @@ function Banner() {
             </div>
 
             {/*Comentario de bienvenida a la pagina*/}
-            <p className="texto-regular">Te invitamos a explorar su universo artístico, donde cada creación cuenta una historia y despierta emociones. Descubre sus murales vibrantes, su música envolvente y sus escritos inspiradores. Gracias por acompañar a Virgilio en este emocionante viaje creativo.</p>
+            <p>Te invitamos a explorar su universo artístico, donde cada creación cuenta una historia y despierta emociones. Descubre sus murales vibrantes, su música envolvente y sus escritos inspiradores. Gracias por acompañar a Virgilio en este emocionante viaje creativo.</p>
 
-            <span className="texto-regular fs-5">¡Disfruta de la experiencia!</span>
+            <span className="fs-5">¡Disfruta de la experiencia!</span>
 
             {/*Botones de redes sociales*/}
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center justify-space-between">
                 <ul className="d-flex gap-3 list-unstyled fs-3 mb-0">
                     <li>
-                        <div className="d-flex gap-2">
-                            <Botones
-                                href={"https://www.instagram.com/virgilioarrieta/"}
-                                iconClass={"bi bi-instagram"}
-                                label={"Instagram"}
-                            />
-                        </div>
+                        <Botones
+                            href="https://www.instagram.com/virgilioarrieta/"
+                            iconClass="bi bi-instagram"
+                            label="Instagram"
+                        />
                     </li>
 
                     <li>
-                        <a href="https://www.tiktok.com/@virgilio.arrieta" target="_blank" rel="noopener noreferrer">
-                            <button className="btn btn-outline-light p-1">
-                                <i className="bi bi-tiktok"> TikTok</i>
-                            </button>
-                        </a>
+                        <Botones
+                            href="https://www.tiktok.com/@virgilio.arrieta"
+                            iconClass="bi bi-tiktok"
+                            label="TikTok"
+                        />
                     </li>
 
                     <li>
-                        <a href="https://open.spotify.com/intl-es/artist/0PCpDbUZp068RFBztSkiPn" target="_blank" rel="noopener noreferrer">
-                            <button className="btn btn-outline-light p-1">
-                                <i class="bi bi-spotify"> Spotify</i>
-                            </button>
-                        </a>
+                        <Botones
+                            href="https://open.spotify.com/intl-es/artist/0PCpDbUZp068RFBztSkiPn"
+                            iconClass="bi bi-spotify"
+                            label="Spotify"
+                        />
                     </li>
                 </ul>
             </div>
