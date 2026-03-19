@@ -1,13 +1,14 @@
 function Navbar() {
     return (
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark mb-2">
+
+        <nav className="navbar navbar-dark bg-dark">
             <div className="container">
                 <a className="navbar-brand d-flex align-items-center gap-2" href="#">
                     <i className="bi bi-palette"></i>
                     <span className="fs-3">Virgilio Arrieta</span>
                 </a>
 
-                <button 
+                <button
                     className="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
@@ -25,7 +26,8 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-        </nav>
+        </nav >
+
     );
 }
 
