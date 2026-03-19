@@ -1,6 +1,6 @@
 import "./Banner.css"; //importacion de los estilos del banner
 
-import Botones from "../Componentes/botones";
+import Botones from "../Componentes/Botones"; //importacion del componente de botones
 
 function Banner() {
     return (
@@ -27,11 +27,13 @@ function Banner() {
             <div className="d-flex justify-content-center">
                 <ul className="d-flex gap-3 list-unstyled fs-3 mb-0">
                     <li>
-                        <a href="https://www.instagram.com/virgilioarrieta/" target="_blank" rel="noopener noreferrer">
-                            <button className="btn btn-outline-light p-1">
-                                <i className="bi bi-instagram"> Instagram</i>
-                            </button>
-                        </a>
+                        <div className="d-flex gap-2">
+                            <Botones
+                                href={"https://www.instagram.com/virgilioarrieta/"}
+                                iconClass={"bi bi-instagram"}
+                                label={"Instagram"}
+                            />
+                        </div>
                     </li>
 
                     <li>
