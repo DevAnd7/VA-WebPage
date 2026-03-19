@@ -1,9 +1,6 @@
-import "./Navbar.css"; //importacion de los estilos del navbar
-
 function Navbar() {
     return (
-
-        <nav className="navbar">
+        <nav className="navbar seccion">
             <div className="container">
                 <a className="navbar-brand d-flex align-items-center gap-2" href="#">
                     <i className="bi bi-palette"></i>
@@ -26,7 +23,6 @@ function Navbar() {
                 </div>
             </div>
         </nav >
-
     );
 }
 

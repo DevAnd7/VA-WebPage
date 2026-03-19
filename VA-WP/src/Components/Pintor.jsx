@@ -1,10 +1,10 @@
 function Pintor() {
     return (
-        <div>
-            <h2 className="texto-regular my-4">Pintor</h2>
+        <div className="seccion">
+            <h2 className="my-4">Pintor</h2>
 
             <div>
-                <h3 className="texto-regular">Etapas / Estilos</h3>
+                <spam>Etapas / Estilos</spam>
                 <div className="row g-3">
                     <div className="col-lg-4 col-md-6">
                         <div className="card h-100 bg-dark text-white">
