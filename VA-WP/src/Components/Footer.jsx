@@ -1,4 +1,4 @@
-import Botones from "../Componentes/Botones"
+import {Botones} from "../Componentes/Botones"
 
 function Footer() {
   return (

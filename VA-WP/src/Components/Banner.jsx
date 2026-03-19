@@ -28,25 +28,33 @@ function Banner() {
                 <ul className="d-flex gap-3 list-unstyled fs-3 mb-0">
                     <li>
                         <Botones
-                            href="https://www.instagram.com/virgilioarrieta/"
                             iconClass="bi bi-instagram"
                             label="Instagram"
+                            onClick={() =>
+                                window.open("https://www.instagram.com/virgilioarrieta/", "_blank")
+                            }
                         />
                     </li>
 
                     <li>
                         <Botones
-                            href="https://www.tiktok.com/@virgilio.arrieta"
                             iconClass="bi bi-tiktok"
                             label="TikTok"
+                            onClick={() =>
+                                window.open("https://www.tiktok.com/@virgilio.arrieta", "_blank")
+                            }
                         />
                     </li>
 
                     <li>
                         <Botones
-                            href="https://open.spotify.com/intl-es/artist/0PCpDbUZp068RFBztSkiPn"
                             iconClass="bi bi-spotify"
                             label="Spotify"
+                            onClick={() =>
+                                window.open(
+                                    "https://open.spotify.com/intl-es/artist/0PCpDbUZp068RFBztSkiPn",
+                                    "_blank")
+                            }
                         />
                     </li>
                 </ul>

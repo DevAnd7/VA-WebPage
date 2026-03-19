@@ -1,11 +1,20 @@
-function Botones({ href, iconClass, label, className = "btn-outline" }) {
+function Botones({ onClick, iconClass, label }) {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer">
-      <button className={`btn ${className} p-1`}>
-        <i className={iconClass}></i> {label}
-      </button>
-    </a>
+    <button onClick={onClick} className="btn btn-outline-dark p-1">
+      <i className={iconClass}></i> {label}
+    </button>
   );
 }
 
-export default Botones;
+export { Botones };
+
+
+function BotonesVerMas({ onClick }) {
+  return (
+    <button onClick={onClick} className="btn btn-outline-dark p-2">
+      Ver más
+    </button>
+  );
+}
+
+export { BotonesVerMas };
