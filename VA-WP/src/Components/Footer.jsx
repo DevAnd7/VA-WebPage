@@ -8,19 +8,32 @@ function Footer() {
         <ul className="d-flex gap-3 list-unstyled fs-3 mb-0">
           <li>
             <a href="https://www.instagram.com/virgilioarrieta/" target="_blank" rel="noopener noreferrer">
-              <i className="bi bi-instagram"></i>
+            <button className="btn btn-outline-light p-1">
+              <i className="bi bi-instagram"> Instagram</i>
+            </button>
             </a>
           </li>
+
           <li>
             <a href="https://www.tiktok.com/@virgilio.arrieta" target="_blank" rel="noopener noreferrer">
-              <i className="bi bi-tiktok"></i>
+            <button className="btn btn-outline-light p-1">
+              <i className="bi bi-tiktok"> TikTok</i>
+            </button>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://open.spotify.com/intl-es/artist/0PCpDbUZp068RFBztSkiPn" target="_blank" rel="noopener noreferrer">
+            <button className="btn btn-outline-light p-1">
+              <i class="bi bi-spotify"> Spotify</i>
+            </button>
             </a>
           </li>
         </ul>
       </div>
 
       <small className="mb-0">
-        © 2026 - Todos los derechos reservados - Made with love by Andri Arrieta
+        © 2026 - Todos los derechos reservados
       </small>
 
     </footer>
