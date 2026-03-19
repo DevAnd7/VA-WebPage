@@ -1,11 +1,13 @@
+import "./Navbar.css"; //importacion de los estilos del navbar
+
 function Navbar() {
     return (
 
-        <nav className="navbar navbar-dark bg-dark">
+        <nav className="navbar">
             <div className="container">
                 <a className="navbar-brand d-flex align-items-center gap-2" href="#">
                     <i className="bi bi-palette"></i>
-                    <span className="fs-3">Virgilio Arrieta</span>
+                    <span className="texto-regular fs-3">Virgilio Arrieta</span>
                 </a>
 
                 <button

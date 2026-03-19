@@ -1,9 +1,11 @@
 import "./Banner.css"; //importacion de los estilos del banner
 
+import Botones from "../Componentes/botones";
+
 function Banner() {
     return (
         <>
-            <div className="card bg-dark text-white mb-2">
+            <div className="card text-white mb-2">
                 <img src="/VA taller.webp" className="card-img-banner" alt="" />
 
                 <div className="card-img-overlay d-flex justify-content-center flex-column text-start">
@@ -17,8 +19,9 @@ function Banner() {
             </div>
 
             {/*Comentario de bienvenida a la pagina*/}
-            <p className="text-white">Te invitamos a explorar su universo artístico, donde cada creación cuenta una historia y despierta emociones. Descubre sus murales vibrantes, su música envolvente y sus escritos inspiradores. Gracias por acompañar a Virgilio en este emocionante viaje creativo.</p>
-            <span className="text-white fs-5">¡Disfruta de la experiencia!</span>
+            <p className="texto-regular">Te invitamos a explorar su universo artístico, donde cada creación cuenta una historia y despierta emociones. Descubre sus murales vibrantes, su música envolvente y sus escritos inspiradores. Gracias por acompañar a Virgilio en este emocionante viaje creativo.</p>
+
+            <span className="texto-regular fs-5">¡Disfruta de la experiencia!</span>
 
             {/*Botones de redes sociales*/}
             <div className="d-flex justify-content-center">
@@ -30,7 +33,7 @@ function Banner() {
                             </button>
                         </a>
                     </li>
-                    
+
                     <li>
                         <a href="https://www.tiktok.com/@virgilio.arrieta" target="_blank" rel="noopener noreferrer">
                             <button className="btn btn-outline-light p-1">
