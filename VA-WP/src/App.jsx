@@ -9,12 +9,14 @@ import Footer from "./Components/Footer"
 function App() {
   return (
     <div className="container">
-      <Navbar />
-      <Banner />
-      <Pintor />
-      <Musico />
-      <Escritor />
-      <Biografia />
+        <Navbar />
+      <div className="d-flex flex-column gap-3">
+        <Banner />
+        <Pintor />
+        <Musico />
+        <Escritor />
+        <Biografia />
+      </div>
       <Footer />
     </div>
   );

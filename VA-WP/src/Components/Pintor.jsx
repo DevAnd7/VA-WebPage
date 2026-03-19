@@ -1,16 +1,15 @@
 function Pintor() {
     return (
-        <div className="seccion">
-            <h2 className="my-4">Pintor</h2>
+        <div className="seccion p-2">
+            <h2>Pintor</h2>
 
             <div>
-                <spam>Etapas / Estilos</spam>
                 <div className="row g-3">
                     <div className="col-lg-4 col-md-6">
                         <div className="card h-100 bg-dark text-white">
                             <img src="/VA taller.webp" className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Retrato</h5>
+                                <h5 className="card-title">Su Obra</h5>
                                 <p className="card-text">
                                     Descripción breve de la obra.
                                 </p>
@@ -23,7 +22,7 @@ function Pintor() {
                         <div className="card h-100 bg-dark text-white">
                             <img src="/VA taller.webp" className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Entre peces, lunas y soles</h5>
+                                <h5 className="card-title">Exploracion</h5>
                                 <p className="card-text">
                                     Descripción breve de la obra.
                                 </p>
@@ -36,7 +35,7 @@ function Pintor() {
                         <div className="card h-100 bg-dark text-white">
                             <img src="/VA taller.webp" className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Figurativo</h5>
+                                <h5 className="card-title">Etapas / Estilos</h5>
                                 <p className="card-text">
                                     Descripción breve de la obra.
                                 </p>
