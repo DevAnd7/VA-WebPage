@@ -1,6 +1,6 @@
 import "./Banner.css"; //importacion de los estilos del banner
 
-import {Botones} from "../Componentes/Botones"; //importacion del componente de botones
+import {BotonesRS} from "../Componentes/Botones"; //importacion del componente de botones
 
 function Banner() {
     return (
@@ -27,7 +27,7 @@ function Banner() {
             <div className="d-flex justify-content-center justify-space-between">
                 <ul className="d-flex gap-3 list-unstyled fs-3 mb-0">
                     <li>
-                        <Botones
+                        <BotonesRS
                             iconClass="bi bi-instagram"
                             label="Instagram"
                             onClick={() =>
@@ -37,7 +37,7 @@ function Banner() {
                     </li>
 
                     <li>
-                        <Botones
+                        <BotonesRS
                             iconClass="bi bi-tiktok"
                             label="TikTok"
                             onClick={() =>
@@ -47,7 +47,7 @@ function Banner() {
                     </li>
 
                     <li>
-                        <Botones
+                        <BotonesRS
                             iconClass="bi bi-spotify"
                             label="Spotify"
                             onClick={() =>

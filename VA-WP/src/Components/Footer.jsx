@@ -1,4 +1,4 @@
-import {Botones} from "../Componentes/Botones"
+import {BotonesRS} from "../Componentes/Botones"
 
 function Footer() {
   return (
@@ -9,7 +9,7 @@ function Footer() {
 
         <ul className="d-flex gap-3 list-unstyled fs-3 mb-0">
           <li>
-            <Botones
+            <BotonesRS
               href="https://www.instagram.com/virgilioarrieta/"
               iconClass="bi bi-instagram"
               label="Instagram"
@@ -17,7 +17,7 @@ function Footer() {
           </li>
 
           <li>
-            <Botones
+            <BotonesRS
               href="https://www.tiktok.com/@virgilio.arrieta"
               iconClass="bi bi-tiktok"
               label="TikTok"
@@ -25,7 +25,7 @@ function Footer() {
           </li>
 
           <li>
-            <Botones
+            <BotonesRS
               href="https://open.spotify.com/intl-es/artist/0PCpDbUZp068RFBztSkiPn"
               iconClass="bi bi-spotify"
               label="Spotify"

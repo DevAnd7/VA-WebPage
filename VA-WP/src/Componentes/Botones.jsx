@@ -1,4 +1,4 @@
-function Botones({ onClick, iconClass, label }) {
+function BotonesRS({ onClick, iconClass, label }) {
   return (
     <button onClick={onClick} className="btn btn-outline-dark p-1">
       <i className={iconClass}></i> {label}
@@ -6,7 +6,7 @@ function Botones({ onClick, iconClass, label }) {
   );
 }
 
-export { Botones };
+export { BotonesRS };
 
 
 function BotonesVerMas({ onClick }) {
