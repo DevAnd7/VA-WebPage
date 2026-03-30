@@ -1,4 +1,4 @@
-function Escritor() {
+function SeccionEscritor() {
     return (
         <div>
             <h2 className="text-white my-4">Escritor</h2>
@@ -6,4 +6,4 @@ function Escritor() {
     );
 }
 
-export default Escritor;
+export default SeccionEscritor;

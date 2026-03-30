@@ -1,4 +1,4 @@
-function Biografia() {
+function SeccionBiografia() {
     return (
         <div>
             <h2 className="text-white my-4">Biografía</h2>
@@ -6,4 +6,4 @@ function Biografia() {
     );
 }
 
-export default Biografia;
+export default SeccionBiografia;

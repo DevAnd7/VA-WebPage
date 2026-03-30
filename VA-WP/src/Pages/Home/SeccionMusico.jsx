@@ -1,4 +1,4 @@
-function Musico() {
+function SeccionMusico() {
     return (
         <div>
             <h2 className="text-white my-4">Músico - Compositor</h2>
@@ -6,4 +6,4 @@ function Musico() {
     );
 }
 
-export default Musico;
+export default SeccionMusico;

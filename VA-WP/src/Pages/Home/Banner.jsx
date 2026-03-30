@@ -1,6 +1,6 @@
 import "./Banner.css"; //importacion de los estilos del banner
 
-import {BotonesRS} from "../Componentes/Botones"; //importacion del componente de botones
+import {BotonesRS} from "../../Components/Botones"; //importacion del componente de botones
 
 function Banner() {
     return (

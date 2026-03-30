@@ -1,10 +1,10 @@
-import Navbar from "./Components/Navbar"
-import Banner from "./Components/Banner"
-import Pintor from "./Components/Pintor"
-import Musico from "./Components/Musico"
-import Escritor from "./Components/Escritor"
-import Biografia from "./Components/Biografia"
-import Footer from "./Components/Footer"
+import Navbar from "./Pages/Home/Navbar"
+import Banner from "./Pages/Home/Banner"
+import SeccionPintor from "./Pages/Home/SeccionPintor"
+import SeccionMusico from "./Pages/Home/SeccionMusico"
+import SeccionEscritor from "./Pages/Home/SeccionEscritor"
+import SeccionBiografia from "./Pages/Home/SeccionBiografia"
+import Footer from "./Pages/Home/Footer"
 
 function App() {
   return (
@@ -12,10 +12,10 @@ function App() {
         <Navbar />
       <div className="d-flex flex-column gap-3">
         <Banner />
-        <Pintor />
-        <Musico />
-        <Escritor />
-        <Biografia />
+        <SeccionPintor />
+        <SeccionMusico />
+        <SeccionEscritor />
+        <SeccionBiografia />
       </div>
       <Footer />
     </div>

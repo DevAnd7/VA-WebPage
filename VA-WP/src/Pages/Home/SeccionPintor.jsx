@@ -1,6 +1,6 @@
-import CardGaleria from "../Componentes/CardGaleria";
+import CardGaleria from "../../Components/CardGaleria";
 
-function Pintor() {
+function SeccionPintor() {
     return (
         <div className="seccion p-2">
             <h2>Pintor</h2>
@@ -21,8 +21,9 @@ function Pintor() {
 
                 </div>
             </div>
+
         </div>
     );
 }
 
-export default Pintor;
+export default SeccionPintor;

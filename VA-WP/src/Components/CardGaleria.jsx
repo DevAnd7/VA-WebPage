@@ -1,4 +1,4 @@
-import {BotonesVerMas} from "../Componentes/Botones"
+import {BotonesVerMas} from "./Botones";
 
 const CardGaleria = () => {
     return (
