@@ -1,7 +1,7 @@
 function SeccionMusico() {
     return (
         <div>
-            <h2 className="text-white my-4">Músico - Compositor</h2>
+            <h2 className="seccion p-2">Músico - Compositor</h2>
         </div>
     );
 }

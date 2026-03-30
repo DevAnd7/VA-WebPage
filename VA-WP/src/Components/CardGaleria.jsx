@@ -1,15 +1,15 @@
 import {BotonesVerMas} from "./Botones";
 
-const CardGaleria = () => {
+const CardGaleria = ({titulo, texto, img, ruta}) => {
     return (
         <div className="card p-1 h-100">
-            <img src="/VA taller.webp" className="card-img-top" alt="..." />
+            <img src={img} className="card-img-top" alt={`imagen ${titulo}`} />
             <div className="card-body">
-                <h5 className="card-title">Su Obra</h5>
+                <h5 className="card-title">{titulo}</h5>
                 <p className="card-text">
-                    Descripción breve de la obra.
+                    {texto}
                 </p>
-                <BotonesVerMas href={"#"} />
+                <BotonesVerMas href={ruta} />
             </div>
         </div>
     )
