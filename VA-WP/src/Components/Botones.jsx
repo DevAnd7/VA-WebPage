@@ -11,8 +11,8 @@ function BotonesRS({ onClick, iconClass, label }) {
 export { BotonesRS };
 
 
-export const BotonesVerMas = ({ href }) => {
+function BotonesVerMas({ href }) {
   return <Link to={href}>Ver más</Link>;
-};
+}
 
 export { BotonesVerMas };

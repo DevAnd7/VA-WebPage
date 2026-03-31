@@ -1,12 +1,29 @@
 import CardGaleria from "../../Components/CardGaleria";
 
-const data =[
+
+const data = [
     {
         id: 1,
-        titulo: "",
+        titulo: "Pintura",
         img: "",
         texto: "",
-        ruta: ""
+        ruta: "/pintura"
+    },
+
+    {
+        id: 2,
+        titulo: "Murales",
+        img: "",
+        texto: "",
+        ruta: "/murales"
+    },
+
+    {
+        id: 3,
+        titulo: "Su Obra",
+        img: "",
+        texto: "",
+        ruta: "/obra"
     }
 ]
 
@@ -18,11 +35,11 @@ function SeccionPintor() {
 
             <div>
                 <div className="row g-3">
-                    <div className="col-lg-4 col-md-6">
-                        {data.map((item) => (
+                    {data.map((item) => (
+                        <div className="col-lg-4 col-md-6">
                             <CardGaleria key={item.id} titulo={item.titulo} img={item.img} texto={item.texto} ruta={item.ruta} />
-                        ))}
-                    </div>
+                        </div>
+                    ))}
 
                 </div>
             </div>
