@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className="container">
         <Navbar />
-      <div className="d-flex flex-column gap-3">
+      <div className="d-flex flex-column gap-2">
         <Banner />
         <SeccionPintor />
         <SeccionMusico />

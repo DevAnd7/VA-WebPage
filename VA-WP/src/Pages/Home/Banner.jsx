@@ -24,8 +24,8 @@ function Banner() {
             <span className="fs-5">¡Disfruta de la experiencia!</span>
 
             {/*Botones de redes sociales*/}
-            <div className="d-flex justify-content-center justify-space-between">
-                <ul className="d-flex gap-3 list-unstyled fs-3 mb-0">
+            <div className="d-flex justify-content-center">
+                <ul className="d-flex align-items-center gap-3 list-unstyled fs-3">
                     <li>
                         <BotonesRS
                             iconClass="bi bi-instagram"
