@@ -9,10 +9,10 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 import './index.css'//importamos los estilos personalizados
 
-import App from './App.jsx'
+import Home from '../src/Pages/Home/Home'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <Home />
   </StrictMode>,
 )

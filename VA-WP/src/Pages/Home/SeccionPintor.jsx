@@ -1,5 +1,16 @@
 import CardGaleria from "../../Components/CardGaleria";
 
+const data =[
+    {
+        id: 1,
+        titulo: "",
+        img: "",
+        texto: "",
+        ruta: ""
+    }
+]
+
+
 function SeccionPintor() {
     return (
         <div className="seccion p-2">
@@ -8,15 +19,9 @@ function SeccionPintor() {
             <div>
                 <div className="row g-3">
                     <div className="col-lg-4 col-md-6">
-                        <CardGaleria />
-                    </div>
-
-                    <div className="col-lg-4 col-md-6">
-                        <CardGaleria />
-                    </div>
-
-                    <div className="col-lg-4 col-md-6">
-                        <CardGaleria />
+                        {data.map((item) => (
+                            <CardGaleria key={item.id} titulo={item.titulo} img={item.img} texto={item.texto} ruta={item.ruta} />
+                        ))}
                     </div>
 
                 </div>
