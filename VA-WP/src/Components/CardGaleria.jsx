@@ -1,6 +1,8 @@
-const CardGaleria = ({titulo, texto, img}) => {
+import { Link } from "react-router-dom";
+
+const CardGaleria = ({titulo, texto, img, ruta}) => {
     return (
-        <div className="card p-1 h-100">
+        <Link to={ruta} className="card nav-link p-1 h-100">
             <img src={img} className="card-img-top" alt={`imagen ${titulo}`} />
             <div className="card-body">
                 <h5 className="card-title">{titulo}</h5>
@@ -8,7 +10,7 @@ const CardGaleria = ({titulo, texto, img}) => {
                     {texto}
                 </p>
             </div>
-        </div>
+        </Link>
     )
 }
 

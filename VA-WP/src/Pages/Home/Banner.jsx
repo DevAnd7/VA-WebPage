@@ -14,14 +14,13 @@ function Banner() {
                         Artista polifacético que abarca la pintura, el muralismo, la escultura, La música, la composición, la escritura y la producción.
                     </p>
 
-                    <p className="card-text"><small>Last updated 3 mins ago</small></p>
                 </div>
             </div>
 
             {/*Comentario de bienvenida a la pagina*/}
             <p>Te invitamos a explorar su universo artístico, donde cada creación cuenta una historia y despierta emociones. Descubre sus murales vibrantes, su música envolvente y sus escritos inspiradores. Gracias por acompañar a Virgilio en este emocionante viaje creativo.</p>
 
-            <span className="fs-5">¡Disfruta de la experiencia!</span>
+            <strong className="fs-5">¡Disfruta de la experiencia!</strong>
 
             {/*Botones de redes sociales*/}
             <div className="d-flex justify-content-center">

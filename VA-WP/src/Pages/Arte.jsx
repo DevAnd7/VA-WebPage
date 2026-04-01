@@ -7,6 +7,8 @@ const Arte = () => {
             <p className="border border-2 border-white d-flex gap-2 p-2"><i className="bi bi-chat-text"></i>
             A través de una variedad de técnicas, estilos y temas, el artista nos invita a un recorrido por su mundo creativo, lleno de colores, texturas y formas que narran historias propias.</p>
 
+            <h2 id="diseñoActual">Diseño Actual</h2>
+
         </div>
     )
 }
