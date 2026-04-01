@@ -1,17 +1,15 @@
 import { Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/Home/Home";
-import Pintura from "./Pages/Pintura";
-import Murales from "./Pages/Murales";
 import Obra from "./Pages/Obra";
+import Musica from "./Pages/Musica";
 
 const AppRoutes = () => {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/pintura" element={<Pintura />} />
-            <Route path="/murales" element={<Murales />} />
             <Route path="/obra" element={<Obra />} />
+            <Route path="/musica" element={<Musica />} />
         </Routes>
     );
 }

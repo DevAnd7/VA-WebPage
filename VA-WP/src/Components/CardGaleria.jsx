@@ -1,6 +1,4 @@
-import {BotonesVerMas} from "./Botones";
-
-const CardGaleria = ({titulo, texto, img, ruta}) => {
+const CardGaleria = ({titulo, texto, img}) => {
     return (
         <div className="card p-1 h-100">
             <img src={img} className="card-img-top" alt={`imagen ${titulo}`} />
@@ -9,7 +7,6 @@ const CardGaleria = ({titulo, texto, img, ruta}) => {
                 <p className="card-text">
                     {texto}
                 </p>
-                <BotonesVerMas href={ruta} />
             </div>
         </div>
     )

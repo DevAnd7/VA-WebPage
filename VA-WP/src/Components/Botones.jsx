@@ -11,8 +11,8 @@ function BotonesRS({ onClick, iconClass, label }) {
 export { BotonesRS };
 
 
-function BotonesVerMas({ href }) {
-  return <Link to={href}>Ver más</Link>;
+function BotonesVerMas({ href, label }) {
+  return <Link className="btn btn-outline-dark" to={href}>{label}</Link>;
 }
 
 export { BotonesVerMas };

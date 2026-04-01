@@ -1,6 +1,6 @@
 function SeccionEscritor() {
     return (
-        <div>
+        <div id="escritor">
             <h2 className="seccion p-2">Escritor</h2>
         </div>
     );
