@@ -9,7 +9,7 @@ const data = [
         titulo: "Obra Artística",
         img: "/public/VA taller.webp",
         texto: "La obra pictórica del artista explora distintos lenguajes visuales a través de cuadros que combinan técnica, intuición y experimentación. Cada pieza es un espacio de investigación estética donde el color, la forma y la materia dialogan, dando lugar a composiciones que oscilan entre lo conceptual y lo emocional.",
-        ruta: ""
+        ruta: "/Arte#ObraArtistica"
     },
 
     {
@@ -17,7 +17,7 @@ const data = [
         titulo: "Murales e Intervenciones",
         img: "/public/VA taller.webp",
         texto: "Más allá del lienzo, su trabajo se expande hacia el espacio con esculturas murales e intervenciones que integran arte y arquitectura. Estas obras transforman superficies en experiencias visuales, aportando volumen, textura y carácter a los entornos donde se insertan.",
-        ruta: ""
+        ruta: "/Arte#MuraleseIntervenciones"
     },
 
     {
@@ -25,7 +25,7 @@ const data = [
         titulo: "Diseño Actual",
         img: "/public/VA taller.webp",
         texto: "Su universo creativo también se traslada al ámbito del diseño aplicado, dando forma a piezas accesibles como camisetas, tazas, bolsos o ediciones gráficas. Estos objetos permiten llevar el arte al día a día, manteniendo la identidad visual del artista en formatos cercanos y funcionales.",
-        ruta: "/Arte#diseñoActual"
+        ruta: "/Arte#DiseñoActual"
     }
 ]
 
