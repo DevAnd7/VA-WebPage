@@ -32,7 +32,7 @@ const data = [
 
 function SeccionPintor() {
     return (
-        <div className="seccion p-2" id="pintor">
+        <div className="seccion" id="pintor">
             <Link to="/obra" className="nav-link">
                 <h2>Arte</h2>
             </Link>
