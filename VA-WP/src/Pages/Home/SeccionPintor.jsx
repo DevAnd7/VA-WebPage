@@ -38,7 +38,7 @@ function SeccionPintor() {
                     Su obra es un reflejo de su pasión por el arte y su deseo de conectar con el mundo.
                 </strong>
 
-                <BotonesVerMas href={"/Obra"} label="Ver más"/>
+                <BotonesVerMas href={"/Arte"} label="Ver más"/>
             </div>
 
             <div>

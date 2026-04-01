@@ -14,10 +14,10 @@ function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div className="collapse navbar-collapse" id="navbar">
                     <div className="navbar-nav ms-auto">
                         <Link to="/" className="nav-link">Inicio</Link>
-                        <Link to="/Pintura" className="nav-link">Arte</Link>
+                        <Link to="/Arte" className="nav-link">Arte</Link>
                         <Link to="/Musica" className="nav-link">Música</Link>
                         <Link to="/Escritos" className="nav-link">Escritos</Link>
                         <Link to="/Biografia" className="nav-link">Biografía</Link>

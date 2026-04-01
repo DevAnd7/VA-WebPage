@@ -1,4 +1,4 @@
-const Obra = () => {
+const Arte = () => {
     return (
         <div className="container">
             <h1>Obra</h1>
@@ -11,4 +11,4 @@ const Obra = () => {
     )
 }
 
-export default Obra;
+export default Arte;
