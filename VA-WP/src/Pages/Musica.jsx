@@ -1,10 +1,10 @@
-const Obra = () => {
+const Musica = () => {
     return (
         <div>
-            <h1>Obra</h1>
-            <p>Bienvenido a la sección de Obra</p>
+            <h1>Musica</h1>
+            <p>Bienvenido a la sección de Música</p>
         </div>
     )
 }
 
-export default Obra;
+export default Musica;
