@@ -14,7 +14,7 @@ function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="navbar">
+                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav ms-auto">
                         <Link to="/" className="nav-link">Inicio</Link>
                         <Link to="/Arte" className="nav-link">Arte</Link>

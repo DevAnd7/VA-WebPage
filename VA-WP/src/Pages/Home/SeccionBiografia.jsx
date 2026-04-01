@@ -1,7 +1,7 @@
 function SeccionBiografia() {
     return (
-        <div id="biografia">
-            <h2 className="seccion">Biografía</h2>
+        <div className="seccion" id="biografia">
+            <h2>Biografía</h2>
         </div>
     );
 }
