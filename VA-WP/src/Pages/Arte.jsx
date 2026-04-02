@@ -1,5 +1,3 @@
-import Tarjeta from "../Components/Tarjeta";
-
 const Arte = () => {
     return (
         <div className="container d-flex flex-column gap-2">
@@ -18,24 +16,16 @@ const Arte = () => {
             {/*Seccion de Obras de Arte*/}
             <div className="seccion" id="ObraArtistica">
                 <h2>Obra Artística</h2>
-                <Tarjeta
-                    img="public/VA taller.webp"
-                    titulo="Cuadros"
-                textoImg="Hola"
-                    texto="Este es un ejemplo de texto para la tarjeta de cuadros."
-                />
 
             </div>
 
             <div className="seccion" id="MuraleseIntervenciones">
                 <h2>Murales e Intervenciones</h2>
-                <Tarjeta titulo={"TITULO"} lado="end" img="public/VA taller.webp" />
 
             </div>
 
             <div className="seccion" id="DiseñoActual">
                 <h2>Diseño Actual</h2>
-                <Tarjeta titulo={"TITULO"} />
 
             </div>
 
