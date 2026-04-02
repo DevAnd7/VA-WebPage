@@ -17,12 +17,25 @@ const Arte = () => {
             <div id="ObraArtistica">
                 <h2 className="seccion">Obra Artística</h2>
 
+                {/*Obra Entre Peces, Lunas y Soles*/}
                 <div className="row p-2">
-                    <div className="col-4 d-flex flex-column text-center bg-white p-2">
-                        <img src="/ObraMujerLPS.webp" alt="Foto Obra Artística" className="img-fluid" />
-                        <small className="mt-1">Etapa: Entre Lunas, Peces y Soles - Año: 1994</small>
+                    <div className=" col-lg-4 d-flex flex-column p-2">
+                        <div className="bg-white p-2">
+                            <img src="/ObraMujerLPS.webp" alt="Foto Obra Artística" className="img-fluid" />
+                            <div className="mt-1">
+                                <ul className="list-unstyled m-0">
+                                    <li>
+                                        Etapa: Entre Lunas, Peces y Soles
+                                    </li>
+                                    <li>
+                                        Año: 1994
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div className="col-8">
+
+                    <div className="col-lg-8">
                         <h3>Entre Peces, Lunas y Soles</h3>
                         <p>El año 1993 marcó un hito importante en su trayectoria artística con la presentación de su primera gran propuesta, “Entre Peces, Lunas y Soles”. Esta serie de obras figurativas le otorgó un reconocimiento nacional considerable, consolidándolo como un artista versátil y visionario. Las críticas positivas no fueron suficientes para detener su inquietud creativa; al contrario, Arrieta buscó ir más allá de las formas tradicionales.</p>
 
@@ -34,21 +47,55 @@ const Arte = () => {
 
                         <p>A lo largo de su trayectoria, ha demostrado ser un creador en constante transformación, comprometido con la búsqueda de un lenguaje artístico propio. Su obra, arraigada en la sensibilidad humana y en las emociones más universales, trasciende fronteras y géneros, dejando un impacto imborrable tanto en el arte como en la música.</p>
                     </div>
-
                 </div>
-
-
-
-
             </div>
 
-            <div className="seccion" id="MuraleseIntervenciones">
-                <h2>Murales e Intervenciones</h2>
 
+            {/*Murales e Intervenciones*/}
+            <div id="MuraleseIntervenciones">
+                <h2 className="seccion">Murales e Intervenciones</h2>
+
+                <div className="row p-2">
+                    <div className=" col-lg-4 d-flex flex-column p-2">
+                        <div className="bg-white p-2">
+                            <img src="/MuralUcla.webp" alt="Foto Obra Artística" className="img-fluid" />
+
+                            <div className="mt-1">
+                                <ul className="list-unstyled m-0">
+                                    <li>
+                                        Mural: “Ah mundo Barquisimeto”
+                                    </li>
+                                    <li>
+                                        Técnica: Pigmento sobre gres
+                                    </li>
+                                    <li>
+                                        Medidas: 224m2
+                                    </li>
+                                    <li>
+                                        Lugar: Rectorado de la UCLA Barquisimeto Edo. Lara-Venezuela
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-8">
+                        <h3>Un Legado Artístico y Humano</h3>
+                        <p>En su faceta como artista plástico, Arrieta exploró diversas formas de expresión, llevando su obra más allá del caballete para crear murales de gran escala, incluyendo uno que supera los 224 m². Su arte, profundamente humanista y poético, ha sido expuesto en Latinoamérica, Estados Unidos y Europa, logrando resonar con audiencias de distintas culturas.</p>
+
+                        <p>La unión de sus talentos como pintor, compositor y músico lo convierte en un creador integral.</p>
+
+                        <p>Según sus palabras:</p>
+
+                        <p><strong>“Mis dibujos se convierten en canciones, y mis canciones se llenan de color. Es una simbiosis necesaria e inevitable.”</strong></p>
+
+                        <p>Virgilio Arrieta es un artista y cantautor cuya obra trasciende las fronteras de lo visual y lo sonoro. Su legado, profundamente arraigado en las tradiciones venezolanas, celebra la belleza de la vida cotidiana, la dualidad del ser humano y el poder del arte para conectar corazones y culturas. Su trayectoria, marcada por el amor a su país y su búsqueda constante de excelencia, lo consolida como una de las figuras más destacadas del panorama artístico y cultural venezolano.</p>
+                    </div>
+                </div>
             </div>
 
-            <div className="seccion" id="DiseñoActual">
-                <h2>Diseño Actual</h2>
+            <div id="DiseñoActual">
+                <h2 className="seccion">Diseño Actual</h2>
 
             </div>
 
