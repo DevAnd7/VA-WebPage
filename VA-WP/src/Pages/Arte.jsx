@@ -19,7 +19,7 @@ const Arte = () => {
 
                 {/*Obra Entre Peces, Lunas y Soles*/}
                 <div className="row p-2">
-                    <div className=" col-lg-4 d-flex flex-column p-2">
+                    <div className=" col-lg-4 d-flex flex-column">
                         <div className="bg-white p-2">
                             <img src="/ObraMujerLPS.webp" alt="Foto Obra Artística" className="img-fluid" />
                             <div className="mt-1">

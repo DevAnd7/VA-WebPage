@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Arte from "./Pages/Arte";
 import Musica from "./Pages/Musica";
+import Biografia from "./Pages/Biografia";
 
 const AppRoutes = () => {
     return (
@@ -10,6 +11,7 @@ const AppRoutes = () => {
             <Route path="/" element={<Home />} />
             <Route path="/arte" element={<Arte />} />
             <Route path="/musica" element={<Musica />} />
+            <Route path="/biografia" element={<Biografia />} />
         </Routes>
     );
 }
