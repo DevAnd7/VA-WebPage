@@ -29,24 +29,24 @@ const Biografia = () => {
                     </div>
                     <p><small>Mapa de la ubicación de El Limón, Aragua, Venezuela</small></p>
                 </div>
-
-
-                <h3 className="seccion">Juventud y Formación Dual</h3>
-
-                <p>Durante su adolescencia, Virgilio continuó cultivando su amor por las artes mientras cumplía con sus estudios formales. A los 19 años se trasladó a Barquisimeto para estudiar Contaduría Pública y Finanzas en la universidad, una decisión que le permitió desarrollar una formación académica sólida. Sin embargo, nunca perdió de vista su verdadero llamado: el arte y la música.</p>
-
-                <p>En paralelo a sus estudios universitarios, participó en talleres de formación artística y asistió a salones de arte, donde fue perfeccionando su técnica. Este período de su vida fue clave para equilibrar su lado académico con su crecimiento creativo, sentando las bases para lo que se convertiría en una carrera multifacética y profundamente comprometida con la expresión artística.</p>
-
-
-                <h3 className="seccion">Entrega Plena al Arte y la Música</h3>
-
-                <p>En 1990, Arrieta tomó una decisión que cambiaría el curso de su vida: abandonó su carrera formal para dedicarse por completo al arte y la música, convencido de que estas disciplinas representaban su verdadera esencia y misión. En Barquisimeto fundó la Galería “Aguatinta”, un espacio que se convirtió en el epicentro de su actividad creativa. Allí desarrolló especialmente el retrato, un género que domina con precisión, técnica y una sensibilidad inigualable.</p>
             </div>
+
+
+            <h3 className="seccion">Juventud y Formación Dual</h3>
+
+            <p>Durante su adolescencia, Virgilio continuó cultivando su amor por las artes mientras cumplía con sus estudios formales. A los 19 años se trasladó a Barquisimeto para estudiar Contaduría Pública y Finanzas en la universidad, una decisión que le permitió desarrollar una formación académica sólida. Sin embargo, nunca perdió de vista su verdadero llamado: el arte y la música.</p>
+
+            <p>En paralelo a sus estudios universitarios, participó en talleres de formación artística y asistió a salones de arte, donde fue perfeccionando su técnica. Este período de su vida fue clave para equilibrar su lado académico con su crecimiento creativo, sentando las bases para lo que se convertiría en una carrera multifacética y profundamente comprometida con la expresión artística.</p>
+
+
+            <h3 className="seccion">Entrega Plena al Arte y la Música</h3>
+
+            <p>En 1990, Arrieta tomó una decisión que cambiaría el curso de su vida: abandonó su carrera formal para dedicarse por completo al arte y la música, convencido de que estas disciplinas representaban su verdadera esencia y misión. En Barquisimeto fundó la Galería “Aguatinta”, un espacio que se convirtió en el epicentro de su actividad creativa. Allí desarrolló especialmente el retrato, un género que domina con precisión, técnica y una sensibilidad inigualable.</p>
 
 
             <h3 className="seccion">Exploraciones Creativas</h3>
 
-            <div className="row p-2">
+            <div className="row">
                 <div className=" col-lg-4 d-flex flex-column">
                     <div className="bg-white p-2">
                         <img src="/ObraMujerLPS.webp" alt="Foto Obra Artística" className="img-fluid" />
@@ -103,9 +103,75 @@ const Biografia = () => {
                     <img src="/LoNuestroEsLoMejor.webp" alt="Logotipo Lo Nuestro es lo Mejor" className="img-fluid" />
                     <p><small>Logotipo de la producción y gira “Lo nuestro es lo mejor”, Empresas POLAR año 1997</small></p>
                 </div>
-
             </div>
 
+
+            <h3 className="seccion">Reconocimiento Internacional y Embajador Cultural</h3>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <img src="" alt="" className="img-fluid" />
+                </div>
+
+                <div className="col-lg-8">
+                    <p>En 1995, Virgilio Arrieta fue invitado a participar en la prestigiosa gira “Música y Colores de Venezuela” en Italia, un evento que lo posicionó como un embajador de la cultura venezolana en el ámbito internacional. Durante esta gira, presentó un repertorio cuidadosamente seleccionado, que exaltaba las tradiciones culturales y musicales de su país. Las letras de sus canciones, profundamente inspiradas en vivencias personales, así como en las costumbres y tradiciones de los pueblos venezolanos, resonaron con un público diverso que recibió su trabajo con entusiasmo y admiración.</p>
+
+                    <p>Cada interpretación estuvo impregnada de un fuerte sentimiento venezolano, logrando transmitir la esencia y el espíritu del país a través de su música. Sus melodías, cargadas de lirismo y emotividad, reflejaban la diversidad cultural, la rica historia y el vibrante folclore de Venezuela. La conexión entre Arrieta y el público italiano fue palpable, convirtiendo cada presentación en una experiencia inolvidable que celebraba el colorido y la profundidad de la música venezolana.</p>
+
+                    <p>Tres años más tarde, en 1998, Arrieta amplió aún más su impacto internacional al viajar al Reino Unido bajo el patrocinio de British Petroleum. Participó en el prestigioso Festival de Aberdeen en Escocia y en el emblemático Bolívar Hall de Londres, dos escenarios que le ofrecieron la oportunidad de llevar su música a nuevas audiencias. Estas presentaciones permitieron a Arrieta compartir la riqueza cultural venezolana con públicos de diferentes contextos, reafirmando su compromiso de actuar como un puente entre culturas.</p>
+
+                    <p>En cada una de estas experiencias internacionales, Arrieta no solo mostró su talento como músico y compositor, sino también su capacidad para capturar la esencia de Venezuela y presentarla de manera universal. Estas giras no fueron simplemente eventos artísticos; representaron un testimonio de la capacidad transformadora del arte, capaz de conectar culturas, emocionar audiencias y celebrar la identidad venezolana en escenarios globales.</p>
+                </div>
+            </div>
+
+
+            <h3 className="seccion">El Alma de los Pueblos y Su Aporte a la Cultura Popular</h3>
+
+            <div className="row">
+                <div className="col-lg-8">
+                    <p>Como locutor certificado desde 1992, Virgilio Arrieta dirigió durante siete años el programa “El Alma de los Pueblos” en Promar Televisión, un espacio dedicado a la promoción de la cultura y la música venezolana. Además, participó como jurado en eventos internacionales, como el Festival de Villavicencio en Colombia (1997), y lideró proyectos innovadores como la creación de agrupaciones musicales juveniles como Bahareque y Santoral, con quienes grabó 32 de sus composiciones.</p>
+                </div>
+
+                <div className="col-lg-4">
+                    <img src="" alt="" className="img-fluid" />
+                </div>
+            </div>
+
+
+            <h3 className="seccion">Un Legado Artístico y Humano</h3>
+            <div className="row">
+                <div className="col-lg-8">
+                    <p>En su faceta como artista plástico, Arrieta exploró diversas formas de expresión, llevando su obra más allá del caballete para crear murales de gran escala, incluyendo uno que supera los 224 m². Su arte, profundamente humanista y poético, ha sido expuesto en Latinoamérica, Estados Unidos y Europa, logrando resonar con audiencias de distintas culturas.</p>
+
+                    <p>La unión de sus talentos como pintor, compositor y músico lo convierte en un creador integral.</p>
+
+                    <p>Según sus palabras:</p>
+
+                    <p><b>“Mis dibujos se convierten en canciones, y mis canciones se llenan de color. Es una simbiosis necesaria e inevitable.”</b></p>
+
+                    <p>Virgilio Arrieta es un artista y cantautor cuya obra trasciende las fronteras de lo visual y lo sonoro. Su legado, profundamente arraigado en las tradiciones venezolanas, celebra la belleza de la vida cotidiana, la dualidad del ser humano y el poder del arte para conectar corazones y culturas. Su trayectoria, marcada por el amor a su país y su búsqueda constante de excelencia, lo consolida como una de las figuras más destacadas del panorama artístico y cultural venezolano.</p>
+
+
+                </div>
+                <div className="col-lg-4">
+                    <img src="" alt="" className="img-fluid" />
+                </div>
+            </div>
+
+
+            <h3 className="seccion">Algunas distinciones</h3>
+            <div className="row">
+                <ul className="list-unstyled">
+                    <li>1999 - Orden Jacinto Lara, en su primera clase, otorgada por el clero y el Ejecutivo Nacional.</li>
+                    <li>2001 - Embajador cultural de Lara.</li>
+                    <li>2006 - Epónimo de todas las carreras de la XXV promoción de la Universidad Yacambú.</li>
+                    <li>2007 - Recibe la Orden Mario Briceño Iragorri, como artista e hijo ilustre, Maracay Aragua.</li>
+                    <li>2015 - Recibe Orden Juan Guillermo Iribarren, en su primera clase.</li>
+                    <li>2024 - Recibe Medalla Institucional de la Universidad Centroccidental Lisandro Alvarado (UCLA)-Barquisimeto, por su excelente contribución a la cultura en nuestra región y el país</li>
+                    <li>2025 - Recibe Orden “Hijo Ilustre del Municipio Crespo”, en su Única Clase</li>
+                </ul>
+
+            </div>
         </div >
     )
 }
