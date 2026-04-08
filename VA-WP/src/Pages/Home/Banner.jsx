@@ -1,26 +1,17 @@
 import "./Banner.css"; //importacion de los estilos del banner
 
-import {BotonesRS} from "../../Components/Botones"; //importacion del componente de botones
+import { BotonesRS } from "../../Components/Botones"; //importacion del componente de botones
 
 function Banner() {
     return (
         <>
-            <div className="card text-white mb-2">
-                <img src="/VA taller.webp" className="card-img-banner" alt="" />
-
-                <div className="card-img-overlay d-flex justify-content-center flex-column text-start">
-                    <h5 className="card-title fs-2">Aquí la creatividad, no tiene límites.</h5>
-                    <p className="card-text fs-3">
-                        Artista polifacético que abarca la pintura, el muralismo, la escultura, La música, la composición, la escritura y la producción.
-                    </p>
-
-                </div>
-            </div>
+            <img src="/UltimaCena.webp" className="card-img-banner" alt="Obra Ultima Cena Musicos - Virgilio Arrieta" />
 
             {/*Comentario de bienvenida a la pagina*/}
             <p>Te invitamos a explorar su universo artístico, donde cada creación cuenta una historia y despierta emociones. Descubre sus murales vibrantes, su música envolvente y sus escritos inspiradores. Gracias por acompañar a Virgilio en este emocionante viaje creativo.</p>
 
             <strong className="fs-5">¡Disfruta de la experiencia!</strong>
+
 
             {/*Botones de redes sociales*/}
             <div className="d-flex justify-content-center">
@@ -32,7 +23,7 @@ function Banner() {
                             onClick={() =>
                                 window.open("https://www.instagram.com/virgilioarrieta/", "_blank")
                             }
-                        />
+                            />
                     </li>
 
                     <li>
@@ -42,7 +33,7 @@ function Banner() {
                             onClick={() =>
                                 window.open("https://www.tiktok.com/@virgilio.arrieta", "_blank")
                             }
-                        />
+                            />
                     </li>
 
                     <li>
@@ -53,11 +44,12 @@ function Banner() {
                                 window.open(
                                     "https://open.spotify.com/intl-es/artist/0PCpDbUZp068RFBztSkiPn",
                                     "_blank")
-                            }
-                        />
+                                }
+                                />
                     </li>
                 </ul>
             </div>
+                                <p className="text-center">Artista polifacético que abarca la pintura, el muralismo, la escultura, La música, la composición, la escritura y la producción.</p>
         </>
     );
 }

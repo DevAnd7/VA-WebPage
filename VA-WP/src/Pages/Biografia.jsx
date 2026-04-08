@@ -41,8 +41,16 @@ const Biografia = () => {
 
             <h3 className="seccion">Entrega Plena al Arte y la Música</h3>
 
-            <p>En 1990, Arrieta tomó una decisión que cambiaría el curso de su vida: abandonó su carrera formal para dedicarse por completo al arte y la música, convencido de que estas disciplinas representaban su verdadera esencia y misión. En Barquisimeto fundó la Galería “Aguatinta”, un espacio que se convirtió en el epicentro de su actividad creativa. Allí desarrolló especialmente el retrato, un género que domina con precisión, técnica y una sensibilidad inigualable.</p>
+            <div className="row">
+                <div className="col-lg-8">
+                    <p>En 1990, Arrieta tomó una decisión que cambiaría el curso de su vida: abandonó su carrera formal para dedicarse por completo al arte y la música, convencido de que estas disciplinas representaban su verdadera esencia y misión. En Barquisimeto fundó la Galería “Aguatinta”, un espacio que se convirtió en el epicentro de su actividad creativa. Allí desarrolló especialmente el retrato, un género que domina con precisión, técnica y una sensibilidad inigualable.</p>
+                </div>
+                <div className="col-lg-4">
+                    <img src="/Retrato.webp" alt="Retrato 1985" className="img-fluid" />
+                    <p>Retrato / Tecnica: Mixta, lápices de oleo dobre papel - 1985</p>
 
+                </div>
+            </div>
 
             <h3 className="seccion">Exploraciones Creativas</h3>
 
@@ -50,16 +58,7 @@ const Biografia = () => {
                 <div className=" col-lg-4 d-flex flex-column">
                     <div className="bg-white p-2">
                         <img src="/ObraMujerLPS.webp" alt="Foto Obra Artística" className="img-fluid" />
-                        <div className="mt-1">
-                            <ul className="list-unstyled m-0">
-                                <li>
-                                    Etapa: Entre Lunas, Peces y Soles
-                                </li>
-                                <li>
-                                    Año: 1994
-                                </li>
-                            </ul>
-                        </div>
+                        <p>Etapa: Entre Lunas, Peces y Soles - 1994</p>
                     </div>
                 </div>
 
@@ -101,7 +100,7 @@ const Biografia = () => {
 
                 <div className="col-lg-4">
                     <img src="/LoNuestroEsLoMejor.webp" alt="Logotipo Lo Nuestro es lo Mejor" className="img-fluid" />
-                    <p><small>Logotipo de la producción y gira “Lo nuestro es lo mejor”, Empresas POLAR año 1997</small></p>
+                    <p><small>Logotipo de la producción y gira “Lo nuestro es lo mejor”, Empresas POLAR - 1997</small></p>
                 </div>
             </div>
 
@@ -110,8 +109,10 @@ const Biografia = () => {
 
             <div className="row">
                 <div className="col-lg-4">
-                    <img src="" alt="" className="img-fluid" />
+                    <img src="/MusicayColoresdeVenezuela.webp" alt="Afiche Gira por Italia" className="img-fluid" />
+                    <p><small>"Musica y Colores de Venezuela" Italia - 1995</small></p>
                 </div>
+
 
                 <div className="col-lg-8">
                     <p>En 1995, Virgilio Arrieta fue invitado a participar en la prestigiosa gira “Música y Colores de Venezuela” en Italia, un evento que lo posicionó como un embajador de la cultura venezolana en el ámbito internacional. Durante esta gira, presentó un repertorio cuidadosamente seleccionado, que exaltaba las tradiciones culturales y musicales de su país. Las letras de sus canciones, profundamente inspiradas en vivencias personales, así como en las costumbres y tradiciones de los pueblos venezolanos, resonaron con un público diverso que recibió su trabajo con entusiasmo y admiración.</p>
@@ -162,13 +163,13 @@ const Biografia = () => {
             <h3 className="seccion">Algunas distinciones</h3>
             <div className="row">
                 <ul className="list-unstyled">
-                    <li>1999 - Orden Jacinto Lara, en su primera clase, otorgada por el clero y el Ejecutivo Nacional.</li>
-                    <li>2001 - Embajador cultural de Lara.</li>
-                    <li>2006 - Epónimo de todas las carreras de la XXV promoción de la Universidad Yacambú.</li>
-                    <li>2007 - Recibe la Orden Mario Briceño Iragorri, como artista e hijo ilustre, Maracay Aragua.</li>
-                    <li>2015 - Recibe Orden Juan Guillermo Iribarren, en su primera clase.</li>
-                    <li>2024 - Recibe Medalla Institucional de la Universidad Centroccidental Lisandro Alvarado (UCLA)-Barquisimeto, por su excelente contribución a la cultura en nuestra región y el país</li>
-                    <li>2025 - Recibe Orden “Hijo Ilustre del Municipio Crespo”, en su Única Clase</li>
+                    <li>1999 - <b>Orden Jacinto Lara</b>, en su primera clase, otorgada por el clero y el Ejecutivo Nacional.</li>
+                    <li>2001 - <b>Embajador cultural de Lara</b>.</li>
+                    <li>2006 - <b>Epónimo de todas las carreras de la XXV promoción de la Universidad Yacambú</b>.</li>
+                    <li>2007 - Recibe la <b>Orden Mario Briceño Iragorri</b>, como artista e hijo ilustre, Maracay Aragua.</li>
+                    <li>2015 - Recibe <b>Orden Juan Guillermo Iribarren</b>, en su primera clase.</li>
+                    <li>2024 - Recibe <b>Medalla Institucional de la Universidad Centroccidental Lisandro Alvarado</b> (UCLA)-Barquisimeto, por su excelente contribución a la cultura en nuestra región y el país</li>
+                    <li>2025 - Recibe <b>Orden “Hijo Ilustre del Municipio Crespo”</b>, en su Única Clase</li>
                 </ul>
 
             </div>
@@ -177,3 +178,12 @@ const Biografia = () => {
 }
 
 export default Biografia;
+
+
+
+<p>
+    <b className="d-flex gap-2">
+        <i className="bi bi-chat-text"></i>
+        Su obra es un reflejo de su pasión por el arte y su deseo de conectar con el mundo.
+    </b>
+</p>
