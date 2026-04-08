@@ -43,11 +43,13 @@ const Biografia = () => {
 
             <div className="row">
                 <div className="col-lg-8">
-                    <p>En 1990, Arrieta tomó una decisión que cambiaría el curso de su vida: abandonó su carrera formal para dedicarse por completo al arte y la música, convencido de que estas disciplinas representaban su verdadera esencia y misión. En Barquisimeto fundó la Galería “Aguatinta”, un espacio que se convirtió en el epicentro de su actividad creativa. Allí desarrolló especialmente el retrato, un género que domina con precisión, técnica y una sensibilidad inigualable.</p>
+                    <p>En 1990, Arrieta tomó una decisión que transformaría por completo el rumbo de su vida: dejó atrás su carrera como contador y auditor, profesión que ejerció durante varios años en diversas empresas del centro occidente venezolano, para entregarse plenamente al arte y la música, convencido de que allí residía su verdadera vocación.</p>
+                    
+                    <p>Ya instalado en Barquisimeto, abrió la galería “Aguatinta”, un pequeño pero vibrante espacio creativo ubicado dentro de la reconocida tienda Maxxis, que pronto se convirtió en el núcleo de su actividad artística. En ese entorno íntimo y efervescente, Arrieta exploró con profundidad una amplia variedad de técnicas: trabajó con carboncillo, lápices de colores, tizas, ceras y lápices al óleo, así como con tinta, experimentando con texturas, contrastes y gestualidades que enriquecieron su lenguaje visual. Fue también allí donde consolidó su dominio del retrato, un género que interpreta con precisión técnica, fuerza expresiva y una sensibilidad que distingue cada una de sus obras.</p>
                 </div>
                 <div className="col-lg-4">
                     <img src="/Retrato.webp" alt="Retrato 1985" className="img-fluid" />
-                    <p>Retrato / Tecnica: Mixta, lápices de oleo dobre papel - 1985</p>
+                    <p>Retrato / Tecnica: Mixta, lápices de oleo sobre papel - 1985</p>
 
                 </div>
             </div>
