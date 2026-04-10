@@ -1,3 +1,5 @@
+import Carrusel from "../../Components/Carrusel";
+
 import { Link } from "react-router-dom";
 
 import { BotonesRS } from "../../Components/Botones";
@@ -12,7 +14,10 @@ function SeccionMusico() {
                     <div className="row g-0">
 
                         <div className="col-md-5">
-                            <img src="/public/VA taller.webp" className="img-fluid rounded-start" alt="VA cantando" />
+                            <Carrusel img1="../ArcillaCaminoySol.webp"
+                                img2="../CamisetaObra.webp"
+                                img3="../OtraImagenMas.webp"
+                            />
                         </div>
 
                         <div className="col-md-7">
