@@ -1,10 +1,8 @@
-import Navbar from "../../Components/Navbar"
 import Banner from "./Banner"
 import SeccionPintor from "./SeccionPintor"
 import SeccionMusico from "./SeccionMusico"
 import SeccionEscritor from "./SeccionEscritor"
 import SeccionBiografia from "./SeccionBiografia"
-import Footer from "../../Components/Footer"
 
 function Home() {
   return (
