@@ -5,7 +5,7 @@ const Biografia = () => {
             <h1>Biografía</h1>
 
 
-            <h3 className="seccion">Virgilio Arrieta: Vida y Obra de un Creador Integral</h3>
+            <h3 className="seccion">Vida y Obra de un Creador Integral</h3>
 
             <div className="row">
                 <div className="col-lg-8">

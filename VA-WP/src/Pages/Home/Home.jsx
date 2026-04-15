@@ -8,17 +8,15 @@ import Footer from "../../Components/Footer"
 
 function Home() {
   return (
-    <div className="container">
-        <Navbar />
       <div className="d-flex flex-column gap-2">
+        
         <Banner />
         <SeccionPintor />
         <SeccionMusico />
         <SeccionEscritor />
         <SeccionBiografia />
+
       </div>
-      <Footer />
-    </div>
   );
 }
 

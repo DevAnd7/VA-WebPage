@@ -5,7 +5,7 @@ function SeccionEscritor() {
     return (
         <div className="seccion" id="escritor">
 
-            <Link to="/escritura" className="nav-link">
+            <Link to="/escritos" className="nav-link">
 
                 <h2>Escritor</h2>
 
