@@ -22,12 +22,17 @@ function SeccionMusico() {
 
                         <div className="col-md-7">
                             <div className="card-body">
-                                
-                                <h5 className="card-title">Card title</h5>
 
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                
-                                <p className="card-text"><small className="text-body-secondary">Last updated 3 mins ago</small></p>
+                                <h5 className="card-title">"Nací con la canción y con las notas del amor..."</h5>
+
+                                <p className="card-text">Sumérgete en el universo musical del artista y descubre canciones que conectan con emociones reales, letras que cuentan historias y melodías que invitan a quedarse.</p>
+
+                                <p className="card-text">En esta sección podrás explorar su música, escuchar cada tema directamente y conocer el alma de cada composición.</p>
+
+                                <p className="card-text">Además, encontrarás un cancionero exclusivo con acordes para que puedas interpretar sus canciones por ti mismo, ya sea en casa o sobre el escenario. Una invitación abierta a sentir, escuchar y también crear.</p>
+
+                                <h5 className="card-title">"...para cantar, cantar así, cantar por siempre"</h5>
+
 
                                 <BotonesRS
                                     iconClass="bi bi-spotify"
