@@ -20,7 +20,7 @@ function SeccionEscritor() {
                         <div className="col-md-7">
 
                             <div className="card-body">
-                                <h5 className="card-title">Otra forma de decir, de expresar</h5>
+                                <h3 className="card-title">Otra forma de decir, de expresar</h3>
 
                                 <p className="card-text">Adéntrate en la palabra escrita del artista y descubre un universo donde la música se transforma en relato. Cada página respira la misma sensibilidad que habita en sus canciones: historias que laten, emociones contenidas y verdades que encuentran su forma en el silencio y en la voz.</p>
 

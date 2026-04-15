@@ -20,7 +20,7 @@ function SeccionBiografia() {
                         <div className="col-md-7">
 
                             <div className="card-body">
-                                <h5 className="card-title"></h5>
+                                <h3 className="card-title">Historia de un creador</h3>
 
                                 <p className="card-text">Descubre la vida y obra de Virgilio Arrieta, un artista venezolano cuya trayectoria une la música, la pintura y la palabra en una misma búsqueda creativa. Nacido en El Limón, Aragua, su infancia en contacto con la naturaleza despertó desde muy temprano una sensibilidad artística que lo llevó a explorar múltiples lenguajes de expresión.</p>
 

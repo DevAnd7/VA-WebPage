@@ -11,10 +11,10 @@ function Home() {
       <div className="d-flex flex-column gap-2">
         
         <Banner />
+        <SeccionBiografia />
         <SeccionPintor />
         <SeccionMusico />
         <SeccionEscritor />
-        <SeccionBiografia />
 
       </div>
   );

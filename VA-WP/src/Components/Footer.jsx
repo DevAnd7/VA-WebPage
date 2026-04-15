@@ -1,11 +1,16 @@
-import {BotonesRS} from "./Botones"
+import { BotonesRS } from "./Botones"
+
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer className="seccion d-flex justify-content-between align-items-center py-2 mt-5">
 
       <div className="d-flex align-items-center gap-3">
-        <h3 className="mb-0">Virgilio Arrieta</h3>
+
+        <Link to="/" className="navbar-brand">
+          <h3>Virgilio Arrieta</h3>
+        </Link>
 
         <ul className="d-flex gap-3 list-unstyled fs-3 mb-0">
           <li>
