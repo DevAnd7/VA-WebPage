@@ -6,7 +6,7 @@ function Navbar() {
             <div className="container">
                 <Link to="/" className="navbar-brand d-flex align-items-center gap-2">
                     <i className="bi bi-palette"></i>
-                    <h1>Virgilio Arrieta</h1>
+                    <h1 className="mb-0">Virgilio Arrieta</h1>
                 </Link>
 
                 <button

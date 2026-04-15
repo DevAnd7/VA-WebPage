@@ -9,7 +9,7 @@ function Footer() {
       <div className="d-flex align-items-center gap-3">
 
         <Link to="/" className="navbar-brand">
-          <h3>Virgilio Arrieta</h3>
+          <h3 className="mb-0">Virgilio Arrieta</h3>
         </Link>
 
         <ul className="d-flex gap-3 list-unstyled fs-3 mb-0">
