@@ -23,7 +23,7 @@ function SeccionMusico() {
                         <div className="col-md-7">
                             <div className="card-body">
 
-                                <h5 className="card-title">"Nací con la canción y con las notas del amor..."</h5>
+                                <h4 className="card-title">"Nací con la canción y con las notas del amor..."</h4>
 
                                 <p className="card-text">Sumérgete en el universo musical del artista y descubre canciones que conectan con emociones reales, letras que cuentan historias y melodías que invitan a quedarse.</p>
 
@@ -31,7 +31,7 @@ function SeccionMusico() {
 
                                 <p className="card-text">Además, encontrarás un cancionero exclusivo con acordes para que puedas interpretar sus canciones por ti mismo, ya sea en casa o sobre el escenario. Una invitación abierta a sentir, escuchar y también crear.</p>
 
-                                <h5 className="card-title">"...para cantar, cantar así, cantar por siempre"</h5>
+                                <h4 className="card-title">"...para cantar, cantar así, cantar por siempre"</h4>
 
 
                                 <BotonesRS

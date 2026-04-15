@@ -20,7 +20,7 @@ const Arte = () => {
                 <div class="card mb-3">
                     <img src="./public/MuralUcla.webp" class="card-img-top" alt="..." />
                     <div class="card-body">
-                        <h3 class="card-title">"Ah mundo Barquisimeto"</h3>
+                        <h4 class="card-title">"Ah mundo Barquisimeto"</h4>
                         <p class="card-text">Técnica: Pigmento sobre gres - Medidas: 224m2 - Lugar: Rectorado de la UCLA Barquisimeto Edo. Lara-Venezuela</p>
                         <p class="card-text"><small class="text-body-secondary">Año: 2003</small></p>
                     </div>
