@@ -1,12 +1,12 @@
 body {
-  background-color: #FAFAF5;
+  background-color: #f0f0f0;
 }
 
 
 .seccion{
-  background-color: #f0eeee;
+  background-color: white;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .texto_space {

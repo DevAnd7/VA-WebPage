@@ -34,15 +34,7 @@ function SeccionMusico() {
                                 <h4 className="card-title">"...para cantar, cantar así, cantar por siempre"</h4>
 
 
-                                <BotonesRS
-                                    iconClass="bi bi-spotify"
-                                    label="Spotify"
-                                    onClick={() =>
-                                        window.open(
-                                            "https://open.spotify.com/intl-es/artist/0PCpDbUZp068RFBztSkiPn",
-                                            "_blank")
-                                    }
-                                />
+                                
                             </div>
                         </div>
 
