@@ -10,7 +10,7 @@ const CardSeccion = ({ titulo, img, texto, href }) => {
                 </div>
 
                 <div className="col-lg-8">
-                    <h3>{titulo}</h3>
+                    <h4>{titulo}</h4>
 
                     <p className="texto_space">{texto}</p>
 

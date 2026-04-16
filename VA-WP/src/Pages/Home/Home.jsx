@@ -1,16 +1,17 @@
 import Banner from "./Banner"
-import SeccionPintor from "./SeccionPintor"
-import SeccionMusico from "./SeccionMusico"
-import SeccionEscritor from "./SeccionEscritor"
-
-
 import CardSeccion from "../../Components/CardSeccion"
+
+import SeccionPintor from "./SeccionPintor"
+
 
 function Home() {
   return (
     <div className="d-flex flex-column gap-2">
 
       <Banner />
+
+
+      {/*BIOGRAFIA*/}
       <CardSeccion
         titulo="Historia de un creador"
         img="./VA taller.webp"
@@ -23,8 +24,12 @@ function Home() {
         href="/biografia"
       />
 
+
+      {/*PINTOR*/}
       <SeccionPintor />
 
+
+      {/*MUSICO*/}
       <CardSeccion
         titulo='"Con la canción y con las notas del amor"'
         img="./ArcillaCaminoySol.webp"
@@ -36,8 +41,20 @@ function Home() {
 
         href="/musica"
       />
-      <SeccionMusico />
-      <SeccionEscritor />
+
+
+      {/*ESCRITOR*/}
+      <CardSeccion
+        titulo="Otra forma de decir, de expresar, de contar"
+        img=""
+        texto={`Adéntrate en la palabra escrita del artista y descubre un universo donde la música se transforma en relato. Cada página respira la misma sensibilidad que habita en sus canciones: historias que laten, emociones contenidas y verdades que encuentran su forma en el silencio y en la voz.
+
+        Este espacio es una invitación a leer despacio, a dejarse atravesar por cada texto y a reconocer, entre líneas, esa misma esencia que también suena en su música.
+
+        Porque a veces, lo que no se canta… se escribe.`}
+
+        href="/escritos"
+      />
 
     </div>
   );

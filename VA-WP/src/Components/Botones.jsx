@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function BotonesRS({ onClick, iconClass, label }) {
   return (
-    <button onClick={onClick} className="btn btn-outline-dark p-1">
+    <button onClick={onClick} className="btn btn-outline-dark p-1 m-0">
       <i className={iconClass}></i> {label}
     </button>
   );
