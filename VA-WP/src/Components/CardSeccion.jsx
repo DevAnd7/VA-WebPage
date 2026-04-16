@@ -14,7 +14,7 @@ const CardSeccion = ({ titulo, img, texto, href }) => {
 
                     <p className="texto_space">{texto}</p>
 
-                    <BotonesVerMas href={href}/>
+                    {href ? <BotonesVerMas href={href} /> : null} {/* Si no hay href, no se muestra el botón */ }
                 </div>
 
             </div>
