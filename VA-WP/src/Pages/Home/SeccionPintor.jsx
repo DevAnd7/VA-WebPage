@@ -31,20 +31,15 @@ const data = [
 
 function SeccionPintor() {
     return (
-        <div className="seccion" id="pintor">
-            <Link to="/arte" className="nav-link">
-                <h2>Arte</h2>
-            </Link>
+        <div id="pintor">
 
-            <div>
-                <div className="row g-3">
-                    {data.map((item) => (
-                        <div className="col-lg-4 col-md-6">
-                            <CardGaleria key={item.id} titulo={item.titulo} img={item.img} texto={item.texto} ruta={item.ruta} />
-                        </div>
-                    ))}
+            <div className="row g-3">
+                {data.map((item) => (
+                    <div className="col-lg-4 col-md-6">
+                        <CardGaleria key={item.id} titulo={item.titulo} img={item.img} texto={item.texto} ruta={item.ruta} />
+                    </div>
+                ))}
 
-                </div>
             </div>
 
         </div>
