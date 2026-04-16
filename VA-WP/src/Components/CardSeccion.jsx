@@ -1,6 +1,6 @@
 import { BotonesVerMas } from "./Botones";
 
-const CardSeccion = ({ titulo, img, texto,caption, href, extra }) => {
+const CardSeccion = ({ titulo, img, texto, caption, href, extra }) => {
     return (
         <div className="seccion">
             <div className="row py-2 m-1">
@@ -17,7 +17,11 @@ const CardSeccion = ({ titulo, img, texto,caption, href, extra }) => {
 
                     {extra ? <div>{extra} </div> : null} {/* Si no hay extra, no se muestra el div */}
 
-                    {href ? <BotonesVerMas href={href} /> : null} {/* Si no hay href, no se muestra el botón */ }
+                    {href ?
+                        <div className="d-flex justify-content-end mt-3">
+                            <BotonesVerMas href={href} />
+                        </div>
+                        : null} {/* Si no hay href, no se muestra el botón */}
                 </div>
 
             </div>

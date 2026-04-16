@@ -84,7 +84,8 @@ const Biografia = () => {
             {/*LO NUESTRO ES LO MEJOR*/}
             <CardSeccion titulo='“Lo Nuestro es lo Mejor”: Un Tributo a la Música Venezolana'
                 img="/LoNuestroEsLoMejor.webp"
-                caption="Logotipo de la producción y gira “Lo nuestro es lo mejor”, Empresas POLAR - 1997"
+                caption='Logotipo de la Gira y Produccion:
+                “Lo nuestro es lo mejor” Empresas POLAR - 1997'
                 texto={`La trayectoria musical de Virgilio Arrieta alcanzó un nuevo nivel de reconocimiento con el éxito de sus composiciones, que comenzaron a ser grabadas por destacados artistas de diversos géneros musicales. Este logro no solo aumentó su visibilidad en la industria, sino que también consolidó su reputación como un compositor talentoso y versátil. Su capacidad para crear letras profundas y melodías cautivadoras atrajo a intérpretes consagrados, quienes vieron en sus obras una oportunidad para enriquecer sus propios repertorios.
 
                 En este contexto, surgió uno de los proyectos más emblemáticos de su carrera: la gira nacional “Lo Nuestro es lo Mejor”, organizada en colaboración con Empresas Polar. Este evento fue mucho más que una serie de conciertos; se convirtió en un homenaje a la música venezolana y en un punto de encuentro cultural. La gira reunió a numerosos artistas que habían interpretado las canciones de Arrieta, transformando cada presentación en una celebración colectiva del talento y las tradiciones musicales del país.
