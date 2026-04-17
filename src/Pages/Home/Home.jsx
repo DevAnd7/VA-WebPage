@@ -14,7 +14,7 @@ function Home() {
       {/*BIOGRAFIA*/}
       <CardSeccion
         titulo="Historia de un creador"
-        img="/VA taller.webp"
+        img="/virgilioarrieta/VA taller.webp"
         texto={`Descubre la vida y obra de Virgilio Arrieta, un artista venezolano cuya trayectoria une la música, la pintura y la palabra en una misma búsqueda creativa. Nacido en El Limón, Aragua, su infancia en contacto con la naturaleza despertó desde muy temprano una sensibilidad artística que lo llevó a explorar múltiples lenguajes de expresión.
 
         A lo largo de su camino, pasó de la formación académica al arte con una vocación inquebrantable, desarrollando una obra reconocida tanto en Venezuela como a nivel internacional.
@@ -32,7 +32,7 @@ function Home() {
       {/*MUSICO*/}
       <CardSeccion
         titulo='"Con la canción y con las notas del amor"'
-        img="/ArcillaCaminoySol.webp"
+        img="/virgilioarrieta/ArcillaCaminoySol.webp"
         texto={`Sumérgete en el universo musical del artista y descubre canciones que conectan con emociones reales, letras que cuentan historias y melodías que invitan a quedarse.
 
         En esta sección podrás explorar su música, escuchar cada tema directamente y conocer el alma de cada composición.

@@ -18,7 +18,7 @@ const Arte = () => {
                 <h2 className="seccion">Murales e Intervenciones</h2>
 
                 <div class="card mb-3">
-                    <img src="/MuralUcla.webp" class="card-img-top" alt="..." />
+                    <img src="/virgilioarrieta/MuralUcla.webp" class="card-img-top" alt="..." />
                     <div class="card-body">
                         <h4 class="card-title">"Ah mundo Barquisimeto"</h4>
                         <p class="card-text">Técnica: Pigmento sobre gres - Medidas: 224m2 - Lugar: Rectorado de la UCLA Barquisimeto Edo. Lara-Venezuela</p>

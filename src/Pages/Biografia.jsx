@@ -16,13 +16,19 @@ const Biografia = () => {
                 Desde muy pequeño, Virgilio mostró una marcada inclinación hacia las artes, especialmente la pintura y la música. Con tan solo 11 años, demostró su osadía artística al organizar su primera exposición de manera autodidacta, utilizando la cerca de un parque infantil de la Plaza Bolívar de El Limón para mostrar sus pinturas durante su reinauguración. Este gesto audaz atrajo la atención del gobernador, quien no solo adquirió una de sus obras, sino que también le otorgó una beca de estudios. Este evento fortuito marcó el inicio de su camino artístico, una senda que seguiría explorando con pasión y determinación.`}
 
                 extra={
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31405.004506947655!2d-67.6478568367882!3d10.291723149049908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e803a4e0ecc53d3%3A0xf73d705adbec6eb1!2sEl%20Lim%C3%B3n%2C%20Aragua%2C%20Venezuela!5e0!3m2!1ses-419!2ses!4v1775413867638!5m2!1ses-419!2ses"
-                        style={{ border: 0 }}
-                        allowFullScreen
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade">
-                    </iframe>
+                    <div style={{ width: "100%", aspectRatio: "16 / 5" }}>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31405.004506947655!2d-67.6478568367882!3d10.291723149049908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e803a4e0ecc53d3%3A0xf73d705adbec6eb1!2sEl%20Lim%C3%B3n%2C%20Aragua%2C%20Venezuela!5e0!3m2!1ses-419!2ses!4v1775413867638!5m2!1ses-419!2ses"
+                            style={{
+                                border: 0,
+                                width: "100%",
+                                height: "100%"
+                            }}
+                            allowFullScreen
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        />
+                    </div>
                 }
             />
 
@@ -39,7 +45,7 @@ const Biografia = () => {
 
             {/*CAMBIO DE CARRERA PROFESIONAL*/}
             <CardSeccion titulo="Entrega Plena al Arte y la Música"
-                img="/Retrato.webp"
+                img="/virgilioarrieta/Retrato.webp"
                 caption="Retrato - Técnica: Mixta, lápices de oleo sobre papel - 1985"
                 texto={`En 1990, Arrieta tomó una decisión que transformaría por completo el rumbo de su vida: dejó atrás su carrera como contador y auditor, profesión que ejerció durante varios años en diversas empresas del centro occidente venezolano, para entregarse plenamente al arte y la música, convencido de que allí residía su verdadera vocación.
                     
@@ -54,7 +60,7 @@ const Biografia = () => {
 
             {/*EXPLORACIONES CREATIVAS*/}
             <CardSeccion titulo="Exploraciones Creativas"
-                img="/ObraMujerLPS.webp"
+                img="/virgilioarrieta/ObraMujerLPS.webp"
                 caption="Etapa: Entre Lunas, Peces y Soles - 1994"
                 texto={`El año 1993 marcó un hito importante en su trayectoria artística con la presentación de su primera gran propuesta, <strong>“Entre Peces, Lunas y Soles”</strong>. Esta serie de obras figurativas le otorgó un reconocimiento nacional considerable, consolidándolo como un artista versátil y visionario. Las críticas positivas no fueron suficientes para detener su inquietud creativa; al contrario, Arrieta buscó ir más allá de las formas tradicionales.
 
@@ -83,7 +89,7 @@ const Biografia = () => {
 
             {/*LO NUESTRO ES LO MEJOR*/}
             <CardSeccion titulo='“Lo Nuestro es lo Mejor”: Un Tributo a la Música Venezolana'
-                img="/LoNuestroEsLoMejor.webp"
+                img="/virgilioarrieta/LoNuestroEsLoMejor.webp"
                 caption='Logotipo de la Gira y Produccion:
                 “Lo nuestro es lo mejor” Empresas POLAR - 1997'
                 texto={`La trayectoria musical de Virgilio Arrieta alcanzó un nuevo nivel de reconocimiento con el éxito de sus composiciones, que comenzaron a ser grabadas por destacados artistas de diversos géneros musicales. Este logro no solo aumentó su visibilidad en la industria, sino que también consolidó su reputación como un compositor talentoso y versátil. Su capacidad para crear letras profundas y melodías cautivadoras atrajo a intérpretes consagrados, quienes vieron en sus obras una oportunidad para enriquecer sus propios repertorios.
@@ -99,7 +105,7 @@ const Biografia = () => {
 
             {/*RECONOCIMIENTO INTERNACIONAL*/}
             <CardSeccion titulo="Reconocimiento Internacional y Embajador Cultural"
-                img="/MusicayColoresdeVenezuela.webp"
+                img="/virgilioarrieta/MusicayColoresdeVenezuela.webp"
                 caption='"Musica y Colores de Venezuela" Italia - 1995'
                 texto={`En 1995, Virgilio Arrieta fue invitado a participar en la prestigiosa gira “Música y Colores de Venezuela” en Italia, un evento que lo posicionó como un embajador de la cultura venezolana en el ámbito internacional. Durante esta gira, presentó un repertorio cuidadosamente seleccionado, que exaltaba las tradiciones culturales y musicales de su país. Las letras de sus canciones, profundamente inspiradas en vivencias personales, así como en las costumbres y tradiciones de los pueblos venezolanos, resonaron con un público diverso que recibió su trabajo con entusiasmo y admiración.
 
@@ -123,7 +129,7 @@ const Biografia = () => {
 
             {/*LEGADO*/}
             <CardSeccion titulo="Un Legado Artístico y Humano"
-                img="/MuralUcla.webp"
+                img="/virgilioarrieta/MuralUcla.webp"
 
                 caption={`Mural: "Ah mundo Barquisimeto"
                     Técnica: Pigmento sobre gres
@@ -157,19 +163,6 @@ const Biografia = () => {
                 2025 - Recibe Orden “Hijo Ilustre del Municipio Crespo”, en su Única Clase`}
 
             />
-            <h3 className="seccion"></h3>
-            <div className="row">
-                <ul className="list-unstyled">
-                    <li>1999 - <b>Orden Jacinto Lara</b>, en su primera clase, otorgada por el clero y el Ejecutivo Nacional.</li>
-                    <li>2001 - <b>Embajador cultural de Lara</b>.</li>
-                    <li>2006 - <b>Epónimo de todas las carreras de la XXV promoción de la Universidad Yacambú</b>.</li>
-                    <li>2007 - Recibe la <b>Orden Mario Briceño Iragorri</b>, como artista e hijo ilustre, Maracay Aragua.</li>
-                    <li>2015 - Recibe <b>Orden Juan Guillermo Iribarren</b>, en su primera clase.</li>
-                    <li>2024 - Recibe <b>Medalla Institucional de la Universidad Centroccidental Lisandro Alvarado</b> (UCLA)-Barquisimeto, por su excelente contribución a la cultura en nuestra región y el país</li>
-                    <li>2025 - Recibe <b>Orden “Hijo Ilustre del Municipio Crespo”</b>, en su Única Clase</li>
-                </ul>
-
-            </div>
         </div >
 
     )
