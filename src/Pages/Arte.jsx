@@ -12,9 +12,9 @@ const Arte = () => {
             <strong className="d-flex gap-2 p-2"><i className="bi bi-chat-text"></i>Te invitamos a sumergirte en esta experiencia visual y descubrir la profundidad de su trabajo artístico.</strong>
 
             <Carrusel
-                img1="./virgilioarrieta/MujerSentada.webp"
-                img2="./virgilioarrieta/ParejaBicicleta.webp"
-                img3="./virgilioarrieta/UltimaCena.webp"
+                img1="/virgilioarrieta/MujerSentada.webp"
+                img2="/virgilioarrieta/ParejaBicicleta.webp"
+                img3="/virgilioarrieta/UltimaCena.webp"
             />
 
 
