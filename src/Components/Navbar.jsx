@@ -17,10 +17,10 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav ms-auto">
                         <Link to="/" className="nav-link">Inicio</Link>
-                        <Link to="/Arte" className="nav-link">Arte</Link>
-                        <Link to="/Musica" className="nav-link">Música</Link>
-                        <Link to="/Escritos" className="nav-link">Escritos</Link>
-                        <Link to="/Biografia" className="nav-link">Biografía</Link>
+                        <Link to="/arte" className="nav-link">Arte</Link>
+                        <Link to="/musica" className="nav-link">Música</Link>
+                        <Link to="/escritos" className="nav-link">Escritos</Link>
+                        <Link to="/biografia" className="nav-link">Biografía</Link>
                     </div>
                 </div>
             </div>
