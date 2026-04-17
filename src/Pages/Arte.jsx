@@ -1,4 +1,17 @@
-import Carrusel from "../Components/Carrusel";
+const data = [
+    {
+        id: 1,
+        img: "/virgilioarrieta/ParejaBicicleta.webp"
+    },
+    {
+        id: 2,
+        img: "/virgilioarrieta/ObraMujerSentada.webp"
+    },
+    {
+        id: 3,
+        img: "/virgilioarrieta/ObraRS.webp"
+    }
+]
 
 
 const Arte = () => {
@@ -11,22 +24,16 @@ const Arte = () => {
 
             <strong className="d-flex gap-2 p-2"><i className="bi bi-chat-text"></i>Te invitamos a sumergirte en esta experiencia visual y descubrir la profundidad de su trabajo artístico.</strong>
 
-            <Carrusel
-                img1="/virgilioarrieta/MujerSentada.webp"
-                img2="/virgilioarrieta/ParejaBicicleta.webp"
-                img3="/virgilioarrieta/UltimaCena.webp"
-            />
 
-
-
-            {/*<div className="container">
-                <h2>Obra Plástica</h2>
-                <div className="masonry">
-                {info.map((item) => (
-                    <CardMasonry key={item.id} img={item.img} texto={item.texto} />
+            <div className="row g-1">
+                {data.map((item) => (
+                    <div key={item.id} className="col-6 col-md-4 col-lg-3">
+                        <img src={item.img} className="img-fluid img-thumbnail" />
+                    </div>
                 ))}
-                </div>
-            </div>*/}
+            </div>
+
+
 
 
             {/*MURALES*/}
