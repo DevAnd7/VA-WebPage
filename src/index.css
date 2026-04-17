@@ -13,7 +13,7 @@ body {
   white-space: pre-line;
 }
 
-.masonry {
+/* .masonry {
   column-count: 3;
   column-gap: 0.5rem;
 }
@@ -30,4 +30,4 @@ body {
   width: 100%;
   margin-bottom: 0.5;
   break-inside: avoid;
-}
+} */
