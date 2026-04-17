@@ -3,12 +3,12 @@ import CardMasonry from "../Components/CardMasonry";
 const info = [
     {
         id: 1,
-        img: "/virgilioarrieta/ParejaBailando.webp",
+        img: "/virgilioarrieta/ObraMujerSentada.webp",
         texto: ""
     },
     {
         id: 2,
-        img: "/virgilioarrieta/MuralUcla.webp",
+        img: "/virgilioarrieta/ParejaBicicleta.webp",
         texto: ""
     },
     {
