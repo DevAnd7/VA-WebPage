@@ -1,6 +1,6 @@
 const Escritos = () => {
     return (
-        <div>
+        <div className="d-flex flex-column gap-2">
             <h1>Escritos</h1>
             <p>Bienvenido a la sección de Escritos</p>
         </div>

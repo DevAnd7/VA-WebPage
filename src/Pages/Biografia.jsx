@@ -2,8 +2,16 @@ import CardSeccion from "../Components/CardSeccion";
 
 const Biografia = () => {
     return (
-
         <div className="d-flex flex-column gap-2">
+
+            <img src="/virgilioarrieta/UltimaCena.webp" class="card-img-banner" />
+            
+            <h2>Biografía</h2>
+
+            <p>Bienvenidos a la historia de un artista cuya vida y obra han dejado una huella única en el mundo del arte.</p>
+
+            <strong className="d-flex gap-2 p-2"><i className="bi bi-chat-text"></i>Acompáñanos en este viaje para conocer al artista más allá de sus obras y adentrarte en la historia que hizo posible su genialidad.</strong>
+
 
             {/*NACIMIENTO*/}
             <CardSeccion titulo="Vida y Obra de un Creador Integral"

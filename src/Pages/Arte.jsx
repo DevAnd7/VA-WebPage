@@ -30,20 +30,17 @@ const info = [
 
 const Arte = () => {
     return (
-        <div className="container d-flex flex-column gap-2">
+        <div className="d-flex flex-column gap-2">
 
-            <h1>Arte</h1>
-            <p>
-                Bienvenidos a la galería virtual de Virgilio Arrieta, un espacio dedicado a su obra plástica. Aquí podrás explorar una colección de sus cuadros y creaciones visuales, donde cada pieza refleja su visión única y su habilidad para transformar emociones y conceptos en arte.
-            </p>
+            <h2>Arte</h2>
 
-            <strong className="d-flex gap-2 p-2"><i className="bi bi-chat-text"></i>A través de una variedad de técnicas, estilos y temas, el artista nos invita a un recorrido por su mundo creativo, lleno de colores, texturas y formas que narran historias propias.</strong>
+            <p>Bienvenidos a la galería virtual de Virgilio Arrieta, un espacio dedicado a su obra plástica. Aquí podrás explorar una colección de sus cuadros y creaciones visuales, donde cada pieza refleja su visión única y su habilidad para transformar emociones y conceptos en arte.</p>
 
-            <p>Te invitamos a sumergirte en esta experiencia visual y descubrir la profundidad de su trabajo artístico.</p>
+            <strong className="d-flex gap-2 p-2"><i className="bi bi-chat-text"></i>Te invitamos a sumergirte en esta experiencia visual y descubrir la profundidad de su trabajo artístico.</strong>
 
-            <p><strong>¡Que disfrutes de la visita!</strong></p>
 
             <div className="container">
+                <h2>Obra Plástica</h2>
                 <div className="masonry">
                 {info.map((item) => (
                     <CardMasonry key={item.id} img={item.img} texto={item.texto} />
