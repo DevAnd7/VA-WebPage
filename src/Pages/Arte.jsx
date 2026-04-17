@@ -1,3 +1,33 @@
+import CardMasonry from "../Components/CardMasonry";
+
+const info = [
+    {
+        id: 1,
+        img: "/virgilioarrieta/ParejaBailando.webp",
+        texto: ""
+    },
+    {
+        id: 2,
+        img: "/virgilioarrieta/MuralUcla.webp",
+        texto: ""
+    },
+    {
+        id: 3,
+        img: "/virgilioarrieta/Retrato.webp",
+        texto: ""
+    },
+    {
+        id: 4,
+        img: "/virgilioarrieta/UltimaCena.webp",
+        texto: ""
+    },
+    {
+        id: 5,
+        img: "/virgilioarrieta/CamisetaObra.webp",
+        texto: ""
+    }
+]
+
 const Arte = () => {
     return (
         <div className="container d-flex flex-column gap-2">
@@ -13,7 +43,16 @@ const Arte = () => {
 
             <p><strong>¡Que disfrutes de la visita!</strong></p>
 
+            <div className="container">
+                <div className="masonry">
+                {info.map((item) => (
+                    <CardMasonry key={item.id} img={item.img} texto={item.texto} />
+                ))}
+                </div>
+            </div>
 
+
+            {/*MURALES*/}
             <div id="MuraleseIntervenciones">
                 <h2 className="seccion">Murales e Intervenciones</h2>
 

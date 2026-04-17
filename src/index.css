@@ -12,3 +12,22 @@ body {
 .texto_space {
   white-space: pre-line;
 }
+
+.masonry {
+  column-count: 3;
+  column-gap: 0.5rem;
+}
+
+.img-masonry{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.cardMaso{
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1rem;
+  break-inside: avoid;
+}

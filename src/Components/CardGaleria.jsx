@@ -9,6 +9,7 @@ const CardGaleria = ({ titulo, texto, img, ruta }) => {
                 <p className="m-0">
                     {texto}
                 </p>
+                
                 <div className="d-flex justify-content-end mt-3">
                     <BotonesVerMas href={ruta} />
                 </div>
