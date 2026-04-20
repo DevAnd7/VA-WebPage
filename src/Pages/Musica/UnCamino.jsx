@@ -1,19 +1,12 @@
-import Cancion from "../Components/Cancion";
+import Cancion from "../../Components/Cancion";
 
-const Musica = () => {
+const UnCamino = () => {
     return (
-        <div className="container">
-
-            <h2>Música - Discografía</h2>
-
-            <p>Bienvenidos a la sección de Discografía y Letras, donde podrás explorar la trayectoria musical de Virgilio Arrieta a través de sus álbumes y canciones. Aquí encontrarás cada una de sus producciones, desde sus primeros lanzamientos hasta sus más recientes éxitos, así como las letras que dan vida a su música.</p>
-
-            <strong className="d-flex gap-2 p-2"><i className="bi bi-chat-text"></i>Cada canción cuenta una historia, un reflejo de sus experiencias, emociones y el estilo único que lo caracteriza. Te invitamos a sumergirte en su mundo sonoro y a descubrir el significado detrás de cada verso.</strong>
-
+        <>
             <div className="seccion row">
 
                 <div className="col-lg-4">
-                    <img src="/virgilioarrieta/ArcillaCaminoySol.webp" className="img img-fluid" />
+                    <img src="" className="img img-fluid" />
                 </div>
 
                 <div className="col-lg-8">
@@ -23,7 +16,7 @@ const Musica = () => {
                             num={1}
                             titulo="A quién no le ha pasado"
                             letra={`Cuando la luna levanta
-                            Hasta el centro de la noche
+                                Hasta el centro de la noche
                             Y una estrella le da besos
                             Alla por el horizonte
                             Dime tu amigo mio
@@ -128,7 +121,7 @@ const Musica = () => {
                                 Y te cruzaste conmigo
                                 Y esa mirada bonita
                                 Dejo mi pecho prendido
-
+                                
                                 Juntos regamos la siembra
                                 Y hasta el árbol prohibido
                                 Me parece fuera un sueño
@@ -174,7 +167,7 @@ const Musica = () => {
                                 Y le manda a calla esa jeta
                                 Y uno se pone tapao
                                 Y le manda a calla esa jeta
-
+                                
                                 Hay que ver
                                 La apuradera no es muy buena
                                 Hay que ver
@@ -183,7 +176,7 @@ const Musica = () => {
                                 Se ponen que echan candela
                                 Y el humano se transforma
                                 En la peor de las fieras
-
+                                
                                 Hay que ver
                                 Que cuando uno anda apurao
                                 Hay que ver
@@ -193,7 +186,7 @@ const Musica = () => {
                                 Que cuando uno anda apurao
                                 Hay que ver
                                 Todo el mundo se atraviesa
-
+                                
                                 Una luz en un perol
                                 Bien roja se queda quieta
                                 Y uno que quiere llegar
@@ -229,7 +222,7 @@ const Musica = () => {
                                 Sin encontrarle respuestas
                                 A mi garganta enmudecida
                                 Queriendo gritar con fuerzas
-
+                                
                                 Quién te llenara de besos
                                 Quién te hará sentir amada
                                 Y quien llevara las flores
@@ -246,7 +239,7 @@ const Musica = () => {
                                 De esperanzas e ilusiones
                                 Y quien dará a nuestros hijos
                                 De noche sus bendiciones
-
+                                
                                 Ya tengo el alma impregnada
                                 Con el sabor de tus besos
                                 Y que de siempre tu llama de amor
@@ -255,7 +248,7 @@ const Musica = () => {
                                 Porque no somos eternos
                                 Nunca podre imaginar
                                 Que otro pueda ser tu dueño
-
+                                
                                 Cuando se cierren mis ojos
                                 Para el eterno descanso
                                 Te pido beses mis labios
@@ -281,7 +274,7 @@ const Musica = () => {
                                 Y como gigantes
                                 Nubes en rojo
                                 Y en bronces brillantes
-
+                                
                                 Yo
                                 Que no he nacido aquí
                                 Puedo jurar que la quiero
@@ -295,7 +288,7 @@ const Musica = () => {
                                 Y, lo que Don Pio canto
                                 Es como una canción
                                 Que repito incesante
-
+                                
                                 No es fantasía
                                 No es un hechizo
                                 Tampoco es un sueño
@@ -343,8 +336,9 @@ const Musica = () => {
                     </div>
                 </div>
             </div>
-        </div>
+
+        </>
     )
 }
 
-export default Musica;
+export default UnCamino;

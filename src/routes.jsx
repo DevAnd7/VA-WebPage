@@ -4,7 +4,7 @@ import Layout from "./Layout";
 
 import Home from "./Pages/Home/Home";
 import Arte from "./Pages/Arte";
-import Musica from "./Pages/Musica";
+import Musica from "./Pages/Musica/Musica";
 import Biografia from "./Pages/Biografia";
 import Escritos from "./Pages/Escritos";
 
