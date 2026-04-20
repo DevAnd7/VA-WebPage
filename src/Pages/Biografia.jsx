@@ -167,7 +167,6 @@ const Biografia = () => {
 
 
 
-
             {/*DISTINCIONES*/}
             <CardSeccion titulo="Algunas distinciones"
                 img=""
