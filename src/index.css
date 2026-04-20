@@ -18,6 +18,17 @@ body {
   object-fit: contain;
 }
 
+.accordion-button:not(.collapsed) {
+  background-color: #f8f9fa; /* o el color que quieras */
+  color: #000;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+
 /* .masonry {
   column-count: 3;
   column-gap: 0.5rem;
