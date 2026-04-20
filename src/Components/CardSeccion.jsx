@@ -7,13 +7,13 @@ const CardSeccion = ({ titulo, img, texto, caption, href, extra }) => {
 
                 <div className="col-lg-4">
                     <img src={img} className="img-fluid" />
-                    <p className="texto_space"><small>{caption}</small></p>
+                    <p><small>{caption}</small></p>
                 </div>
 
                 <div className="col-lg-8">
                     <h4>{titulo}</h4>
 
-                    <p className="texto_space">{texto}</p>
+                    <p>{texto}</p>
 
                     {extra ? <div>{extra} </div> : null} {/* Si no hay extra, no se muestra el div */}
 
