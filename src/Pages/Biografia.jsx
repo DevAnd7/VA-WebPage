@@ -156,11 +156,11 @@ const Biografia = () => {
 
                 texto={<>
                     En su faceta como artista plástico, Arrieta exploró diversas formas de expresión, llevando su obra más allá del caballete para crear murales de gran escala, incluyendo uno que supera los <b>224 m²</b>. Su arte, profundamente humanista y poético, ha sido expuesto en <b>Latinoamérica, Estados Unidos y Europa</b>, logrando resonar con audiencias de distintas culturas. La unión de sus talentos como pintor, compositor y músico lo convierte en un creador integral.
-<br /><br />
+                    <br /><br />
                     Según sus palabras:
                     <br />
                     <b>“Mis dibujos se convierten en canciones, y mis canciones se llenan de color. Es una relación necesaria e inevitable.”</b>
-<br /><br />
+                    <br /><br />
                     Virgilio Arrieta es un artista y cantautor cuya obra trasciende las fronteras de lo visual y lo sonoro. Su legado, profundamente arraigado en las tradiciones venezolanas, celebra la belleza de la vida cotidiana, la dualidad del ser humano y el poder del arte para conectar corazones y culturas. Su trayectoria, marcada por el amor a su país y su búsqueda constante de excelencia, lo consolida como una de las figuras más destacadas del panorama artístico y cultural venezolano.
                 </>}
             />
@@ -173,29 +173,29 @@ const Biografia = () => {
                 img=""
                 caption=""
                 texto={<>
-                <ul>
-                    <li>
-                1999 - <b>Orden Jacinto Lara</b>, en su primera clase, otorgada por el clero y el Ejecutivo Nacional.
-                    </li>
-                    <li>
-                2001 - <b>Embajador cultural de Lara</b>.
-                    </li>
-                    <li>
-                2006 - <b>Epónimo de todas las carreras de la XXV promoción de la Universidad Yacambú</b>.
-                    </li>
-                    <li>
-                2007 - Recibe la <b>Orden Mario Briceño Iragorri</b>, como artista e hijo ilustre, Maracay Aragua.
-                    </li>
-                    <li>
-                2015 - Recibe <b>Orden Juan Guillermo Iribarren</b>, en su primera clase.
-                    </li>
-                    <li>
-                2024 - Recibe <b>Medalla Institucional de la Universidad Centroccidental Lisandro Alvarado</b> (UCLA)-Barquisimeto, por su excelente contribución a la cultura en nuestra región y el país.
-                    </li>
-                    <li>
-                2025 - Recibe <b>Orden “Hijo Ilustre del Municipio Crespo”</b>, en su Única Clase
-                    </li>
-                </ul>
+                    <ul>
+                        <li>
+                            1999 - <b>Orden Jacinto Lara</b>, en su primera clase, otorgada por el clero y el Ejecutivo Nacional.
+                        </li>
+                        <li>
+                            2001 - <b>Embajador cultural de Lara</b>.
+                        </li>
+                        <li>
+                            2006 - <b>Epónimo de todas las carreras de la XXV promoción de la Universidad Yacambú</b>.
+                        </li>
+                        <li>
+                            2007 - Recibe la <b>Orden Mario Briceño Iragorri</b>, como artista e hijo ilustre, Maracay Aragua.
+                        </li>
+                        <li>
+                            2015 - Recibe <b>Orden Juan Guillermo Iribarren</b>, en su primera clase.
+                        </li>
+                        <li>
+                            2024 - Recibe <b>Medalla Institucional de la Universidad Centroccidental Lisandro Alvarado</b> (UCLA)-Barquisimeto, por su excelente contribución a la cultura en nuestra región y el país.
+                        </li>
+                        <li>
+                            2025 - Recibe <b>Orden “Hijo Ilustre del Municipio Crespo”</b>, en su Única Clase
+                        </li>
+                    </ul>
                 </>}
             />
         </div >
