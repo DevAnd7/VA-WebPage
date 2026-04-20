@@ -1,3 +1,5 @@
+import Carrusel from "../Components/Carrusel";
+
 const data = [
     {
         id: 1,
@@ -40,12 +42,17 @@ const Arte = () => {
             <div id="MuraleseIntervenciones">
                 <h2 className="seccion">Murales e Intervenciones</h2>
 
-                <div class="card mb-3">
-                    <img src="/virgilioarrieta/MuralUcla.webp" class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h4 class="card-title">"Ah mundo Barquisimeto"</h4>
-                        <p class="card-text">Técnica: Pigmento sobre gres - Medidas: 224m2 - Lugar: Rectorado de la UCLA Barquisimeto Edo. Lara-Venezuela</p>
-                        <p class="card-text"><small class="text-body-secondary">Año: 2003</small></p>
+                <div className="card mb-3">
+                    <Carrusel
+                    img1="/virgilioarrieta/MuralUcla.webp"
+                    img2="/virgilioarrieta/MuralUcla.webp"
+                    img3="/virgilioarrieta/MuralUcla.webp"
+                    />
+
+                    <div className="card-body">
+                        <h4 className="card-title">"Ah mundo Barquisimeto"</h4>
+                        <p>Técnica: Pigmento sobre gres - Medidas: 224m2 - Lugar: Rectorado de la UCLA Barquisimeto Edo. Lara-Venezuela</p>
+                        <p>Año: 2003</p>
                     </div>
                 </div>
             </div>
