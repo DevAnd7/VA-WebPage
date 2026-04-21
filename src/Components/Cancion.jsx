@@ -14,6 +14,7 @@ const Cancion = ({ num, titulo, letra }) => {
                         <h6 className="m-0">{titulo}</h6>
                         <small>Autor: Virgilio Arrieta</small>
                     </div>
+                    <br /><br />
 
                     <p className="texto_space">{letra}</p>
 
