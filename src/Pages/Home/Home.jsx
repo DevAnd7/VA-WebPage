@@ -1,8 +1,6 @@
 import Banner from "./Banner"
 import CardSeccion from "../../Components/CardSeccion"
 
-import SeccionPintor from "./SeccionPintor"
-
 
 function Home() {
   return (
@@ -25,37 +23,54 @@ function Home() {
       />
 
 
-      {/*PINTOR*/}
-      <SeccionPintor />
+      <p className="text-center mt-2">Artista polifacético que abarca la pintura, el muralismo, la escultura, La música, la composición, la escritura y la producción.</p>
 
+      {/*CARRUSEL*/}
+      <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="hover">
 
-      {/*MUSICO*/}
-      <CardSeccion
-        titulo='"Con la canción y con las notas del amor"'
-        img="/virgilioarrieta/ArcillaCaminoySol.webp"
-        texto={`Sumérgete en el universo musical del artista y descubre canciones que conectan con emociones reales, letras que cuentan historias y melodías que invitan a quedarse.
+        <div className="carousel-inner">
 
-        En esta sección podrás explorar su música, escuchar cada tema directamente y conocer el alma de cada composición.
+          <div className="carousel-item active">
+            <img src="/virgilioarrieta/ParejaBailando.webp" className="img-carousel" />
+            <h3 className="mt-2">ARTE</h3>
+            <p>
+              Descubre un universo creativo que abarca pintura, murales, escultura,
+              arte digital y diseño aplicado en prendas y accesorios. Cada pieza conecta
+              arte y vida cotidiana desde una mirada contemporánea.
+            </p>
+          </div>
 
-        Además, encontrarás un cancionero exclusivo con acordes para que puedas interpretar sus canciones por ti mismo, ya sea en casa o sobre el escenario. Una invitación abierta a sentir, escuchar y también crear.`}
+          <div className="carousel-item">
+            <img src="/virgilioarrieta/ParejaBailando.webp" className="img-carousel" />
+            <h3 className="mt-2">MÚSICA</h3>
+            <p>
+              Sumérgete en un universo musical y descubre canciones de su autoría que
+              conectan con emociones reales, letras que cuentan historias y melodías que invitan a cantar.
+            </p>
+          </div>
 
-        href="/musica"
-      />
+          <div className="carousel-item">
+            <img src="/virgilioarrieta/ParejaBailando.webp" className="img-carousel" />
+            <h3 className="mt-2">ESCRITURA</h3>
+            <p>
+              Adéntrate en la obra literaria del artista, donde su libro y diversos escritos
+              revelan una voz personal que explora emociones, ideas y experiencias desde una mirada creativa y reflexiva.
+            </p>
+          </div>
 
+        </div>
 
-      {/*ESCRITOR*/}
-      <CardSeccion
-        titulo="Otra forma de decir, de expresar, de contar"
-        img=""
-        texto={`Adéntrate en la palabra escrita del artista y descubre un universo donde la música se transforma en relato. Cada página respira la misma sensibilidad que habita en sus canciones: historias que laten, emociones contenidas y verdades que encuentran su forma en el silencio y en la voz.
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
 
-        Este espacio es una invitación a leer despacio, a dejarse atravesar por cada texto y a reconocer, entre líneas, esa misma esencia que también suena en su música.
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
 
-        Porque a veces, lo que no se canta… se escribe.`}
-
-        href="/escritos"
-      />
-
+      </div>
     </div>
   );
 }

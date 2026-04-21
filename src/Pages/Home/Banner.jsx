@@ -10,8 +10,7 @@ function Banner() {
             {/*Comentario de bienvenida a la pagina*/}
             <p>Te invitamos a explorar su universo artístico, donde cada creación cuenta una historia y despierta emociones. Descubre sus murales vibrantes, su música envolvente y sus escritos inspiradores. Gracias por acompañar a Virgilio en este emocionante viaje creativo.</p>
 
-            <strong className="fs-5">¡Disfruta de la experiencia!</strong>
-
+            <strong className="fs-5 text-center">¡Disfruta de la experiencia!</strong>
 
             {/*Botones de redes sociales*/}
             <div className="d-flex justify-content-center">
@@ -23,7 +22,7 @@ function Banner() {
                             onClick={() =>
                                 window.open("https://www.instagram.com/virgilioarrieta/", "_blank")
                             }
-                            />
+                        />
                     </li>
 
                     <li>
@@ -33,7 +32,7 @@ function Banner() {
                             onClick={() =>
                                 window.open("https://www.tiktok.com/@virgilio.arrieta", "_blank")
                             }
-                            />
+                        />
                     </li>
 
                     <li>
@@ -44,12 +43,12 @@ function Banner() {
                                 window.open(
                                     "https://open.spotify.com/intl-es/artist/0PCpDbUZp068RFBztSkiPn",
                                     "_blank")
-                                }
-                                />
+                            }
+                        />
                     </li>
                 </ul>
             </div>
-                                <p className="text-center">Artista polifacético que abarca la pintura, el muralismo, la escultura, La música, la composición, la escritura y la producción.</p>
+
         </>
     );
 }
