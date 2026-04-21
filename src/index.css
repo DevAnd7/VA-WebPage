@@ -33,7 +33,7 @@ body {
   width: 100%;
   height: 70vh;
   object-fit: cover;
-  object-position: 50% 20%;
+  object-position: 50% 15%;
 }
 
 .carousel-item {

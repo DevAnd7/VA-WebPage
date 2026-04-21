@@ -5,15 +5,15 @@ const CardSeccion = ({ titulo, img, texto, caption, href, extra }) => {
         <div className="seccion">
             <div className="row py-2 m-1">
 
-                <div className="col-lg-4">
+                <div className="col-lg-5">
                     <img src={img} className="img-fluid" />
                     <p><small>{caption}</small></p>
                 </div>
 
-                <div className="col-lg-8">
+                <div className="col-lg-7">
                     <h4>{titulo}</h4>
 
-                    <p>{texto}</p>
+                    <p className="texto_space">{texto}</p>
 
                     {extra ? <div>{extra} </div> : null} {/* Si no hay extra, no se muestra el div */}
 

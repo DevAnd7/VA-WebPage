@@ -6,7 +6,7 @@ const ArcillaCamino = () => {
             <div className="seccion row">
 
                 <div className="col-lg-4">
-                    <img src="/virgilioarrieta/ArcillaCaminoySol.webp" className="img img-fluid" />
+                    <img src="/virgilioarrieta/ArcillaCaminoySol.webp" className="img-fluid" />
                 </div>
 
                 <div className="col-lg-8">

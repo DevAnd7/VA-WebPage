@@ -16,7 +16,7 @@ const Musica = () => {
 
 
             {/* DISCOGRAFIA */}
-            <div className="d-flex flex-column gap-2">
+            <div className="container d-flex flex-column gap-2">
                 <UnCamino />
                 <ArcillaCamino />
                 <CorazonVene />

@@ -6,7 +6,7 @@ const CorazonVene = () => {
             <div className="seccion row">
 
                 <div className="col-lg-4">
-                    <img src="" className="img img-fluid" />
+                    <img src="" className="img-fluid" />
                 </div>
 
                 <div className="col-lg-8">

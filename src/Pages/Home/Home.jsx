@@ -13,11 +13,11 @@ function Home() {
       <CardSeccion
         titulo="Historia de un creador"
         img="/virgilioarrieta/VA taller.webp"
-        texto={`Descubre la vida y obra de Virgilio Arrieta, un artista venezolano cuya trayectoria une la música, la pintura y la palabra en una misma búsqueda creativa. Nacido en El Limón, Aragua, su infancia en contacto con la naturaleza despertó desde muy temprano una sensibilidad artística que lo llevó a explorar múltiples lenguajes de expresión.
-
-        A lo largo de su camino, pasó de la formación académica al arte con una vocación inquebrantable, desarrollando una obra reconocida tanto en Venezuela como a nivel internacional.
+        texto={`Te invitamos a descubrir la biografía de Virgilio Arrieta, un creador integral nacido en El Limón en 1955, cuya vida ha estado profundamente ligada al arte, la música y la cultura venezolana. Desde sus primeros años mostró una sensibilidad especial que lo llevó a desarrollar, de forma autodidacta, una trayectoria artística que abarca la pintura, la música y la expresión cultural.
         
-        Compositor de más de trescientas canciones interpretadas por grandes figuras de la música, pintor de un universo visual propio y creador de espacios culturales y proyectos que celebran la identidad venezolana, su historia es la de un creador en constante transformación. Una invitación a conocer a un artista que convierte la emoción en color, en palabra y en sonido.`}
+        A lo largo de su vida ha construido una obra amplia y diversa: como pintor ha explorado distintos lenguajes visuales, y como compositor ha creado más de 300 canciones interpretadas por reconocidos artistas nacionales e internacionales. Su trabajo ha trascendido fronteras, consolidándolo como un embajador de la identidad cultural venezolana.
+        
+        Conocer su historia es adentrarse en el recorrido de un artista que ha hecho del arte una forma de vida, uniendo emoción, creatividad y compromiso cultural en cada una de sus obras.`}
 
         href="/biografia"
       />
