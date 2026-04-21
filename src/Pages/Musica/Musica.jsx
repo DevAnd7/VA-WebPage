@@ -1,5 +1,6 @@
-import ArcillaCamino from "./ArcillaCamino";
 import UnCamino from "./UnCamino";
+import ArcillaCamino from "./ArcillaCamino";
+import CorazonVene from "./CorazonVene";
 
 const Musica = () => {
     return (
@@ -18,6 +19,7 @@ const Musica = () => {
             <div className="d-flex flex-column gap-2">
                 <UnCamino />
                 <ArcillaCamino />
+                <CorazonVene />
             </div>
         </div>
     )
