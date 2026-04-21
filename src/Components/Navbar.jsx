@@ -8,6 +8,7 @@ function Navbar() {
                     <i className="bi bi-palette"></i>
                     <h1 className="mb-0">Virgilio Arrieta</h1>
                 </Link>
+                
 
                 <button
                     className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">

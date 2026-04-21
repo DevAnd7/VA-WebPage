@@ -5,6 +5,8 @@ const Musica = () => {
     return (
         <div className="d-flex flex-column gap-2">
 
+            <img src="/virgilioarrieta/UltimaCena.webp" className="card-img-banner" alt="Obra Ultima Cena Musicos - Virgilio Arrieta" />
+
             <h2>Música - Discografía</h2>
 
             <p>Bienvenidos a la sección de Discografía y Letras, donde podrás explorar la trayectoria musical de Virgilio Arrieta a través de sus álbumes y canciones. Aquí encontrarás cada una de sus producciones, desde sus primeros lanzamientos hasta sus más recientes éxitos, así como las letras que dan vida a su música.</p>
