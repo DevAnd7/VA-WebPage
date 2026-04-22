@@ -1,5 +1,6 @@
 import Banner from "./Banner"
 import CardSeccion from "../../Components/CardSeccion"
+import { Link } from "react-router-dom";
 
 
 function Home() {
@@ -31,31 +32,37 @@ function Home() {
         <div className="carousel-inner">
 
           <div className="carousel-item active">
-            <img src="/virgilioarrieta/ParejaBailando.webp" className="img-carousel" />
-            <h3 className="mt-2">ARTE</h3>
-            <p>
-              Descubre un universo creativo que abarca pintura, murales, escultura,
-              arte digital y diseño aplicado en prendas y accesorios. Cada pieza conecta
-              arte y vida cotidiana desde una mirada contemporánea.
-            </p>
+            <Link to="/arte" className="text-decoration-none text-dark">
+              <img src="/virgilioarrieta/ParejaBailando.webp" className="img-carousel" />
+              <h3 className="mt-2">ARTE</h3>
+              <p>
+                Descubre un universo creativo que abarca pintura, murales, escultura,
+                arte digital y diseño aplicado en prendas y accesorios. Cada pieza conecta
+                arte y vida cotidiana desde una mirada contemporánea.
+              </p>
+            </Link>
           </div>
 
           <div className="carousel-item">
-            <img src="/virgilioarrieta/ParejaBailando.webp" className="img-carousel" />
-            <h3 className="mt-2">MÚSICA</h3>
-            <p>
-              Sumérgete en un universo musical y descubre canciones de su autoría que
-              conectan con emociones reales, letras que cuentan historias y melodías que invitan a cantar.
-            </p>
+            <Link to="/musica" className="text-decoration-none text-dark">
+              <img src="/virgilioarrieta/ParejaBailando.webp" className="img-carousel" />
+              <h3 className="mt-2">MÚSICA</h3>
+              <p>
+                Sumérgete en un universo musical y descubre canciones de su autoría que
+                conectan con emociones reales, letras que cuentan historias y melodías que invitan a cantar.
+              </p>
+            </Link>
           </div>
 
           <div className="carousel-item">
-            <img src="/virgilioarrieta/ParejaBailando.webp" className="img-carousel" />
-            <h3 className="mt-2">ESCRITURA</h3>
-            <p>
-              Adéntrate en la obra literaria del artista, donde su libro y diversos escritos
-              revelan una voz personal que explora emociones, ideas y experiencias desde una mirada creativa y reflexiva.
-            </p>
+            <Link to="/escritos" className="text-decoration-none text-dark">
+              <img src="/virgilioarrieta/ParejaBailando.webp" className="img-carousel" />
+              <h3 className="mt-2">ESCRITURA</h3>
+              <p>
+                Adéntrate en la obra literaria del artista, donde su libro y diversos escritos
+                revelan una voz personal que explora emociones, ideas y experiencias desde una mirada creativa y reflexiva.
+              </p>
+            </Link>
           </div>
 
         </div>
