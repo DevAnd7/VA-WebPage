@@ -6,13 +6,15 @@ const CardGaleria = ({ titulo, texto, img, ruta }) => {
             <img src={img} className="card-img-top" alt={`imagen ${titulo}`} />
             <div className="card-body">
                 <h4 className="card-title">{titulo}</h4>
-                <p className="m-0">
-                    {texto}
-                </p>
-                
-                <div className="d-flex justify-content-end mt-3">
-                    <BotonesVerMas href={ruta} />
-                </div>
+
+                {texto ? <p className="m-0">{texto}</p> : null}
+
+                {ruta ?
+                    <div className="d-flex justify-content-end mt-3">
+                        <BotonesVerMas href={ruta} />
+                    </div>
+                : null}
+
             </div>
         </div>
     )

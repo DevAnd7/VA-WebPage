@@ -1,19 +1,5 @@
+import CardGaleria from "../Components/CardGaleria";
 import Carrusel from "../Components/Carrusel";
-
-const data = [
-    {
-        id: 1,
-        img: "/virgilioarrieta/ParejaBicicleta.webp"
-    },
-    {
-        id: 2,
-        img: "/virgilioarrieta/ObraMujerSentada.webp"
-    },
-    {
-        id: 3,
-        img: "/virgilioarrieta/ObraRS.webp"
-    }
-]
 
 
 const Arte = () => {
@@ -29,39 +15,73 @@ const Arte = () => {
             <strong className="d-flex gap-2 p-2"><i className="bi bi-chat-text"></i>Te invitamos a sumergirte en esta experiencia visual y descubrir la profundidad de su trabajo artístico.</strong>
 
 
-            <div className="row g-1">
-                {data.map((item) => (
-                    <div key={item.id} className="col-6 col-md-4 col-lg-3">
-                        <img src={item.img} className="img-fluid img-thumbnail" />
-                    </div>
-                ))}
+            {/* OBRA PLASTICA */}
+            <h2 id="ObraPlastica">Obra Plástica</h2>
+            <div className="seccion">
+
+                <Carrusel
+                    id="ObraPlastica"
+                    img1="/virgilioarrieta/"
+                    img2="/virgilioarrieta/"
+                    img3="/virgilioarrieta/"
+                />
+
             </div>
-
-
 
 
             {/*MURALES*/}
             <div id="MuraleseIntervenciones">
-                <h2 className="seccion">Murales e Intervenciones</h2>
+                <h2>Murales e Intervenciones</h2>
 
-                <div className="card mb-3">
+                <div className="seccion">
+                    {/* UCLA */}
                     <Carrusel
-                    img1="/virgilioarrieta/MuralUcla.webp"
-                    img2="/virgilioarrieta/MuralUcla.webp"
-                    img3="/virgilioarrieta/MuralUcla.webp"
+                        id="Murales"
+                        img1="/virgilioarrieta/MuralUcla.webp"
+                        img2="/virgilioarrieta/"
+                        img3="/virgilioarrieta/"
                     />
 
-                    <div className="card-body">
-                        <h4 className="card-title">"Ah mundo Barquisimeto"</h4>
-                        <p>Técnica: Pigmento sobre gres - Medidas: 224m2 - Lugar: Rectorado de la UCLA Barquisimeto Edo. Lara-Venezuela</p>
+                    <div className="text-center p-1">
+                        <h4>"Ah mundo Barquisimeto"</h4>
+                        <p>Técnica: Pigmento sobre gres - Medidas: 224m2 - Lugar: Rectorado de la UCLA, Barquisimeto, Edo. Lara-Venezuela</p>
                         <p>Año: 2003</p>
                     </div>
+
+
+                    {/* ASCARDIO */}
+                    <Carrusel
+                        id="Murales"
+                        img1="/virgilioarrieta/"
+                        img2="/virgilioarrieta/"
+                        img3="/virgilioarrieta/"
+                    />
+
+                    <div className="text-center p-1">
+                        <h4>""</h4>
+                        <p>Técnica: Pigmento sobre madera - Medidas: - Lugar: ASCARDIO, Barquisimeto, Edo. Lara-Venezuela</p>
+                        <p>Año: 2021</p>
+                    </div>
+
                 </div>
             </div>
 
 
-            <div id="DiseñoActual">
-                <h2 className="seccion">Diseño Actual</h2>
+            <div id="MuraleseIntervenciones">
+                <h2>Diseño e Intervenciones</h2>
+
+                <div className="d-flex gap-2">
+                        <CardGaleria
+                            titulo="Arte digital"
+                            img="/virgilioarrieta/"
+                        />
+
+                        <CardGaleria
+                            titulo="Intervenciones"
+                            img="/virgilioarrieta/CamisetaObra.webp"
+                        />
+                    
+                </div>
 
             </div>
 
