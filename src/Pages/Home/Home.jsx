@@ -12,7 +12,7 @@ function Home() {
 
       {/*BIOGRAFIA*/}
       <CardSeccion
-        titulo="Historia de un creador"
+        titulo="Historia de un Creador"
         img="/virgilioarrieta/VA taller.webp"
         texto={`Te invitamos a descubrir la biografía de Virgilio Arrieta, un creador integral nacido en El Limón en 1955, cuya vida ha estado profundamente ligada al arte, la música y la cultura venezolana. Desde sus primeros años mostró una sensibilidad especial que lo llevó a desarrollar, de forma autodidacta, una trayectoria artística que abarca la pintura, la música y la expresión cultural.
         

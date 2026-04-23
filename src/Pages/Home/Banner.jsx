@@ -10,7 +10,7 @@ function Banner() {
             {/*Comentario de bienvenida a la pagina*/}
             <p>Te invitamos a explorar su universo artístico, donde cada creación cuenta una historia y despierta emociones. Descubre sus murales vibrantes, su música envolvente y sus escritos inspiradores. Gracias por acompañar a Virgilio en este emocionante viaje creativo.</p>
 
-            <strong className="fs-5 text-center">¡Disfruta de la experiencia!</strong>
+            <strong className="fs-5 text-center">¡Disfruta de la Experiencia!</strong>
 
             {/*Botones de redes sociales*/}
             <div className="d-flex justify-content-center">

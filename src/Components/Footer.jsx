@@ -12,7 +12,7 @@ function Footer() {
       <h3 className="m-0">Virgilio Arrieta</h3>
     </Link>
 
-    <ul className="d-flex gap-2 list-unstyled fs-3 mb-0 align-items-center">
+    <ul className="d-flex gap-2 list-unstyled fs-3 align-items-center">
       <li>
         <BotonesRS2
           href="https://www.instagram.com/virgilioarrieta/"
