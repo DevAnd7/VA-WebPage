@@ -1,19 +1,19 @@
 const Carrusel = ({ id, img1, img2, img3, img4 }) => {
     return (
-        <div id={`carousel${id}`} className="carousel slide">
+        <div id={`carousel${id}`} className="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="hover">
 
             <div className="carousel-inner p-1">
                 <div className="carousel-item active">
-                    <img src={img1} className="d-block img-carrusel mx-auto" />
+                    <img src={img1} className="d-block img-carrusel" />
                 </div>
                 <div className="carousel-item">
-                    <img src={img2} className="d-block img-carrusel mx-auto" />
+                    <img src={img2} className="d-block img-carrusel" />
                 </div>
                 {img3 ? <div className="carousel-item">
-                    <img src={img3} className="d-block img-carrusel mx-auto" />
+                    <img src={img3} className="d-block img-carrusel" />
                 </div> : null}
                 {img4 ? <div className="carousel-item">
-                    <img src={img4} className="d-block img-carrusel mx-auto" />
+                    <img src={img4} className="d-block img-carrusel" />
                 </div> : null}
             </div>
 

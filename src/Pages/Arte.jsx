@@ -38,9 +38,9 @@ const Arte = () => {
                     <Carrusel
                         id="Murales"
                         img1="/virgilioarrieta/MuralUcla.webp"
-                        img2="/virgilioarrieta/MuralUcla2.web"
-                        img3="/virgilioarrieta/MuralUcla3.web"
-                        img4="/virgilioarrieta/MuralUcla4.web"
+                        img2="/virgilioarrieta/MuralUcla4.webp"
+                        img3="/virgilioarrieta/MuralUcla2.webp"
+                        img4="/virgilioarrieta/MuralUcla3.webp"
                     />
 
                     <div className="text-center p-1">
