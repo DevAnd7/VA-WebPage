@@ -1,4 +1,4 @@
-const Carrusel = ({ id, img1, img2, img3, img4 }) => {
+const Carrusel = ({ id, img1, img2, img3, img4, img5 }) => {
     return (
         <div id={`carousel${id}`} className="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="hover">
 
@@ -14,6 +14,9 @@ const Carrusel = ({ id, img1, img2, img3, img4 }) => {
                 </div> : null}
                 {img4 ? <div className="carousel-item">
                     <img src={img4} className="d-block img-carrusel" />
+                </div> : null}
+                {img5 ? <div className="carousel-item">
+                    <img src={img5} className="d-block img-carrusel" />
                 </div> : null}
             </div>
 

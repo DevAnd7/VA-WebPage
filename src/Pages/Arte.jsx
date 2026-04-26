@@ -21,9 +21,11 @@ const Arte = () => {
 
                 <Carrusel
                     id="ObraPlastica"
-                    img1="/virgilioarrieta/"
-                    img2="/virgilioarrieta/"
-                    img3="/virgilioarrieta/"
+                    img1="/virgilioarrieta/ObraNuestroEncuentro.webp"
+                    img2="/virgilioarrieta/ObraNocheDeJazz.webp"
+                    img3="/virgilioarrieta/ObraMujerSentada.webp"
+                    img4="/virgilioarrieta/ObraParejaBicicleta.webp"
+                    img5="/virgilioarrieta/ObraRS.webp"
                 />
 
             </div>
